@@ -210,28 +210,6 @@ const Landing = () => {
 
         {screenWidth >= 1440 && (
           <>
-            {/* <div className="frame-35">
-              <div className="frame-36">
-                <img className="vector-4" alt="Vector" src="img/page-1-1.png" />
-                <div className="text-wrapper-42">Technical Support</div>
-              </div>
-              <div className="frame-36">
-                <img className="report" alt="Report" src="img/page-1-1.png" />
-                <div className="text-wrapper-43">Billing Support</div>
-              </div>
-              <div className="frame-37">
-                <img className="frame-38" alt="Frame" src="img/page-1-1.png" />
-                <div className="text-wrapper-44">Managed Platform</div>
-              </div>
-              <div className="frame-36">
-                <img className="page-2" alt="Page" src="img/page-1-1.png" />
-                <div className="text-wrapper-45">Other Services</div>
-              </div>
-            </div> */}
-
-
-
-
 
             <div className="why-choose-us-2">
               <div className="why-choose-us-all-2">

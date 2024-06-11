@@ -4,7 +4,7 @@ import "./styles/tab.css";
 const QuestionTab = () => {
     return (
         <>
-            <div className="question">
+            <div className="question" id="contact-us-section">
                 <div className="frame-20">
                     <p className="have-another">
                         Have Another Question? <br />

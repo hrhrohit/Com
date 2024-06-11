@@ -4,7 +4,7 @@ import "./styles/desk.css";
 const Questiondesk = () => {
   return (
     <>
-      <div className="question-2">
+      <div className="question-2" id="contact-us-section">
         <div className="frame-58">
           <p className="have-another-2">
             Have Another Question? <br />

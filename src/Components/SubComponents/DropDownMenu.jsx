@@ -7,7 +7,9 @@ const DropdownMenu = ({ isOpen }) => {
                 <li className="menu-item">Home</li>
                 <li className="menu-item">Services</li>
                 <li className="menu-item">About Us</li>
-                <li className="menu-item contact-us">Contact Us</li>
+                <li className="menu-item contact-us">
+                    <a href="#contact-us-section">Contact Us</a>
+                </li>
             </ul>
         </div>
     );

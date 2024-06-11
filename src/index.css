@@ -4,7 +4,13 @@
 
 .body{
   overflow-y: hidden;
+  scroll-behavior: smooth;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 
 :root {
   --black: rgba(0, 0, 0, 1);

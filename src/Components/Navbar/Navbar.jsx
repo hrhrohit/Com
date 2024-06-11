@@ -250,7 +250,7 @@ const Navbar = () => {
                                     : undefined,
                     }}
                 >
-                    Contact Us
+                    <a href="#contact-us-section">Contact Us</a>
                 </div>
             </div>
         </header>
