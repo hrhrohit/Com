@@ -1,0 +1,53 @@
+.iphone-pro-max .frame-3 {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+.iphone-pro-max .top-tier-netsapiens-wrapper {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    position: relative;
+}
+
+.iphone-pro-max .top-tier-netsapiens-2 {
+    color: #191919;
+    font-family: "Urbanist", Helvetica;
+    font-weight: 700;
+    letter-spacing: 0;
+    position: relative;
+    text-align: center;
+}
+
+.iphone-pro-max .subtext-2 {
+    align-items: center;
+    background-color: #ffffff40;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    position: relative;
+}
+
+.iphone-pro-max .p {
+    color: #3d3d3d;
+    position: relative;
+    text-align: center;
+}
+
+.iphone-pro-max .connect-2 {
+    align-items: center;
+    background: linear-gradient(180deg, rgb(255, 156.27, 40.37) 0%, rgb(255, 72.96, 252.92) 100%);
+    display: inline-flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    position: relative;
+}
+
+.iphone-pro-max .text-wrapper-7 {
+    color: #ffffff;
+    position: relative;
+    width: fit-content;
+}

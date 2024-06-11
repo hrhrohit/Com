@@ -1,0 +1,320 @@
+.icon-active path {
+  stroke: #ED1C24;
+}
+
+.icon-inactive path {
+  stroke: white;
+}
+
+
+
+.services-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 16px;
+  left: 95px;
+  position: absolute;
+  top: 2065px;
+}
+
+
+
+.frame-41 {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px 41px;
+  height: 478px;
+  position: relative;
+  width: 369px;
+}
+
+.frame-wrapper-2 {
+  height: 109px;
+  position: relative;
+  width: 369px;
+}
+
+.frame-42 {
+  align-items: center;
+  background-color: #002263;
+  /* default background color for non-active */
+  border-radius: 15px;
+  display: flex;
+  gap: 10px;
+  height: 109px;
+  justify-content: center;
+  padding: 7px 25px;
+  position: relative;
+  width: 369px;
+  cursor: pointer;
+}
+
+.frame-42.active {
+  background-color: #fedada;
+  /* active background color */
+}
+
+.vector-5 {
+  height: 68px;
+  position: relative;
+  width: 42px;
+}
+
+.text-wrapper-51 {
+  color: #ffffff;
+  /* default text color for non-active */
+  font-family: var(--h4-font-family);
+  font-size: var(--h4-font-size);
+  font-style: var(--h4-font-style);
+  font-weight: var(--h4-font-weight);
+  letter-spacing: var(--h4-letter-spacing);
+  line-height: var(--h4-line-height);
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.text-wrapper-51.active {
+  color: #ed1c24;
+  /* active text color */
+}
+
+.frame-43 {
+  align-items: center;
+  background-color: #002263;
+  border-radius: 15px;
+  display: flex;
+  gap: 10px;
+  height: 109px;
+  justify-content: center;
+  padding: 7px 25px;
+  position: relative;
+  width: 369px;
+}
+
+.text-wrapper-52 {
+  color: #ffffff;
+  font-family: var(--h4-font-family);
+  font-size: var(--h4-font-size);
+  font-style: var(--h4-font-style);
+  font-weight: var(--h4-font-weight);
+  letter-spacing: var(--h4-letter-spacing);
+  line-height: var(--h4-line-height);
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.frame-44 {
+  align-items: center;
+  background-color: #002263;
+  border-radius: 15px;
+  display: inline-flex;
+  gap: 10px;
+  height: 109px;
+  padding: 7px 25px;
+  position: relative;
+}
+
+.page-3 {
+  height: 58.9px;
+  position: relative;
+  width: 58.9px;
+}
+
+.frame-45 {
+  background-color: #fedada;
+  border-radius: 19.1px;
+  height: 478px;
+  position: relative;
+  width: 865px;
+}
+
+.group-3 {
+  height: 50px;
+  left: 53px;
+  position: absolute;
+  top: 24px;
+  width: 236px;
+}
+
+.frame-46 {
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 36.48px;
+  display: flex;
+  gap: 6.39px;
+  height: 50px;
+  justify-content: center;
+  padding: 4.47px 15.98px;
+  position: relative;
+  width: 236px;
+}
+
+.vector-6 {
+  height: 43.46px;
+  margin-bottom: -0.96px;
+  margin-top: -0.96px;
+  position: relative;
+  width: 26.84px;
+}
+
+.text-wrapper-53 {
+  color: #ff4d4d;
+  font-family: "Urbanist", Helvetica;
+  font-size: 19.2px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.text-wrapper-54 {
+  color: #494949;
+  font-family: "Urbanist", Helvetica;
+  font-size: 22.9px;
+  font-weight: 500;
+  left: 53px;
+  letter-spacing: 0;
+  line-height: 27.5px;
+  position: absolute;
+  text-align: justify;
+  top: 92px;
+  width: 769px;
+}
+
+.frame-47 {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 18px;
+  position: relative;
+}
+
+.frame-48 {
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 30px;
+  height: 215px;
+  overflow: hidden;
+  position: relative;
+}
+
+.rectangle-5 {
+  background-color: #ff4d4d;
+  height: 9px;
+  position: relative;
+  width: 394px;
+}
+
+.text-wrapper-55 {
+  color: #000000;
+  font-family: var(--h5-font-family);
+  font-size: var(--h5-font-size);
+  font-style: var(--h5-font-style);
+  font-weight: var(--h5-font-weight);
+  letter-spacing: var(--h5-letter-spacing);
+  line-height: var(--h5-line-height);
+  position: relative;
+  text-align: center;
+  width: 347px;
+}
+
+.text-wrapper-56 {
+  color: #4c4c4c;
+  font-family: var(--TS-r-font-family);
+  font-size: var(--TS-r-font-size);
+  font-style: var(--TS-r-font-style);
+  font-weight: var(--TS-r-font-weight);
+  letter-spacing: var(--TS-r-letter-spacing);
+  line-height: var(--TS-r-line-height);
+  position: relative;
+  text-align: center;
+  width: 254px;
+}
+
+.frame-49 {
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 11px;
+  overflow: hidden;
+  padding: 0px 0px 17px;
+  position: relative;
+}
+
+.rectangle-6 {
+  background-color: #ff4d4d;
+  height: 9px;
+  position: relative;
+  width: 403px;
+}
+
+.text-wrapper-57 {
+  color: #000000;
+  font-family: var(--h5-font-family);
+  font-size: var(--h5-font-size);
+  font-style: var(--h5-font-style);
+  font-weight: var(--h5-font-weight);
+  letter-spacing: var(--h5-letter-spacing);
+  line-height: var(--h5-line-height);
+  position: relative;
+  text-align: center;
+  width: 306px;
+}
+
+.text-wrapper-58 {
+  color: #4c4c4c;
+  font-family: var(--TS-r-font-family);
+  font-size: var(--TS-r-font-size);
+  font-style: var(--TS-r-font-style);
+  font-weight: var(--TS-r-font-weight);
+  height: 141px;
+  letter-spacing: var(--TS-r-letter-spacing);
+  line-height: var(--TS-r-line-height);
+  position: relative;
+  text-align: center;
+  width: 335px;
+}
+
+.carousel-container {
+  position: absolute;
+  left: 30px;
+  top: 196px;
+  width: calc(100% - 60px);
+  height: 270px;
+}
+
+.carousel {
+  height: 100%;
+}
+
+.carousel .dot {
+  background: #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+  height: 10px;
+  margin: 0 5px;
+  width: 10px;
+}
+
+.carousel .active-dot {
+  background: #ff4d4d;
+  border-radius: 50%;
+  display: inline-block;
+  height: 10px;
+  margin: 0 5px;
+  width: 10px;
+}

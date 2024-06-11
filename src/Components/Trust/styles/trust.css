@@ -1,0 +1,17 @@
+.iphone-pro-max .trusted-by {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    position: absolute;
+  }
+  
+  .iphone-pro-max .text-wrapper-8 {
+    color: #000000;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .iphone-pro-max .img-2 {
+    flex: 0 0 auto;
+    position: relative;
+  }

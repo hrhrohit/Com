@@ -1,0 +1,17 @@
+.iphone-pro-max .our-service-2 {
+    align-items: flex-end;
+    display: inline-flex;
+    gap: 70px;
+    left: 89px;
+    position: absolute;
+    top: 1560px;
+  }
+  
+  .iphone-pro-max .our-services-2 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 22px;
+    position: relative;
+  }

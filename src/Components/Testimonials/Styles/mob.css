@@ -1,0 +1,180 @@
+.iphone-pro-max .frame-69 {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 27px;
+    position: absolute;
+    top: 2749px;
+    width: 100%;
+  }
+  
+  .iphone-pro-max .what-our-client-says-3 {
+    color: transparent;
+    font-family: "Urbanist", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    width: 245px;
+  }
+  
+  .iphone-pro-max .client-testimonials-3 {
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 318px;
+    padding: 24px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .iphone-pro-max .review {
+    align-items: flex-start;
+    background-color: var(--white-ffffff);
+    border: 1px solid;
+    border-color: var(--border-ebebeb);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 219px;
+    padding: 20px;
+    position: relative;
+    width: 85%;
+  }
+  
+  .iphone-pro-max .rating-review {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .iphone-pro-max .text-wrapper-91 {
+    align-self: stretch;
+    color: var(--text-secondary-828282);
+    font-family: "Urbanist", Helvetica;
+    font-size: 14.2px;
+    font-weight: 500;
+    height: 102px;
+    letter-spacing: 0;
+    line-height: 17.1px;
+    margin-top: -1px;
+    position: relative;
+  }
+  
+  .iphone-pro-max .review-user {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 20px;
+    position: relative;
+  }
+  
+  .iphone-pro-max .winifred-harmon {
+    height: 40px;
+    object-fit: cover;
+    position: relative;
+    width: 40px;
+  }
+  
+  .iphone-pro-max .user-name {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 4px;
+    position: relative;
+  }
+  
+  .iphone-pro-max .text-wrapper-92 {
+    color: var(--primary-black-313131);
+    font-family: "DM Sans", Helvetica;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 21px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .iphone-pro-max .text-wrapper-93 {
+    color: var(--text-secondary-828282);
+    font-family: "DM Sans", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .iphone-pro-max .icons {
+    align-items: flex-start;
+    display: inline-flex;
+    gap: 16px;
+    position: absolute;
+    top: 305px;
+  }
+  
+  .iphone-pro-max .icon {
+    border: 1px solid;
+    border-color: var(--border-ebebeb);
+    border-radius: 12px;
+    height: 24px;
+    position: relative;
+    transform: rotate(180deg);
+    width: 24px;
+  }
+  
+  .iphone-pro-max .right {
+    height: 10px;
+    left: 6px;
+    position: absolute;
+    top: 6px;
+    transform: rotate(-180deg);
+    width: 10px;
+  }
+  
+  .iphone-pro-max .right-wrapper {
+    background-color: #ff4d4d;
+    border-radius: 12px;
+    height: 24px;
+    position: relative;
+    transform: rotate(180deg);
+    width: 24px;
+  }
+  
+  .iphone-pro-max .right-2 {
+    height: 10px;
+    left: 7px;
+    position: absolute;
+    top: 7px;
+    transform: rotate(-180deg);
+    width: 10px;
+  }
+
+  .frame-69 .carousel-root{
+    width: 90%;
+  }
+
+  .carousel .control-next{
+    background-color: #ff4d4d;
+    border-radius: 12px;
+    height: 24px;
+    position: relative;
+    transform: rotate(180deg);
+    width: 24px;
+  }

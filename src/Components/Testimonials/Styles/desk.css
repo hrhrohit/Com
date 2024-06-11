@@ -1,0 +1,166 @@
+.iphone-pro-max .testmonial {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 68px;
+    left: 135px;
+    position: absolute;
+    top: 3239px;
+  }
+  
+  .iphone-pro-max .what-our-client-says-2 {
+    color: transparent;
+    font-family: var(--h3-font-family);
+    font-size: var(--h3-font-size);
+    font-style: var(--h3-font-style);
+    font-weight: var(--h3-font-weight);
+    letter-spacing: var(--h3-letter-spacing);
+    line-height: var(--h3-line-height);
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    width: 519px;
+  }
+  
+  .iphone-pro-max .text-wrapper-64 {
+    color: #ff4d4d;
+    font-family: var(--h3-font-family);
+    font-size: var(--h3-font-size);
+    font-style: var(--h3-font-style);
+    font-weight: var(--h3-font-weight);
+    letter-spacing: var(--h3-letter-spacing);
+    line-height: var(--h3-line-height);
+  }
+  
+  .iphone-pro-max .text-wrapper-65 {
+    color: #000000;
+    font-family: var(--h3-font-family);
+    font-size: var(--h3-font-size);
+    font-style: var(--h3-font-style);
+    font-weight: var(--h3-font-weight);
+    letter-spacing: var(--h3-letter-spacing);
+    line-height: var(--h3-line-height);
+  }
+  
+  .iphone-pro-max .client-testimonials-2 {
+    align-items: flex-end;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 24px;
+    position: relative;
+    width: 1170px;
+  }
+  
+  .iphone-pro-max .cards-3 {
+    align-items: flex-start;
+    align-self: stretch;
+    background-color: var(--white-ffffff);
+    border-radius: 24px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 20px;
+    padding: 40px;
+    position: relative;
+  }
+  
+  .iphone-pro-max .profile-2 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 24px;
+    position: relative;
+  }
+  
+  .iphone-pro-max .image-2 {
+    height: 70px;
+    position: relative;
+    width: 70px;
+  }
+  
+  .iphone-pro-max .name-4 {
+    height: 49px;
+    margin-right: -4px;
+    position: relative;
+    width: 185px;
+  }
+  
+  .iphone-pro-max .text-wrapper-66 {
+    color: var(--primary-black-313131);
+    font-family: var(--h5-font-family);
+    font-size: var(--h5-font-size);
+    font-style: var(--h5-font-style);
+    font-weight: var(--h5-font-weight);
+    left: 0;
+    letter-spacing: var(--h5-letter-spacing);
+    line-height: var(--h5-line-height);
+    position: absolute;
+    top: 0;
+  }
+  
+  .iphone-pro-max .text-wrapper-67 {
+    color: var(--text-secondary-828282);
+    font-family: var(--TS-s-font-family);
+    font-size: var(--TS-s-font-size);
+    font-style: var(--TS-s-font-style);
+    font-weight: var(--TS-s-font-weight);
+    left: 0;
+    letter-spacing: var(--TS-s-letter-spacing);
+    line-height: var(--TS-s-line-height);
+    position: absolute;
+    top: 30px;
+    white-space: nowrap;
+  }
+  
+  .iphone-pro-max .text-wrapper-68 {
+    align-self: stretch;
+    color: var(--text-secondary-828282);
+    flex: 1;
+    font-family: var(--TS-m-font-family);
+    font-size: var(--TS-m-font-size);
+    font-style: var(--TS-m-font-style);
+    font-weight: var(--TS-m-font-weight);
+    letter-spacing: var(--TS-m-letter-spacing);
+    line-height: var(--TS-m-line-height);
+    position: relative;
+  }
+  
+  .iphone-pro-max .name-5 {
+    height: 49px;
+    margin-right: -4px;
+    position: relative;
+    width: 145px;
+  }
+  
+  .iphone-pro-max .cards-4 {
+    align-items: flex-start;
+    background-color: var(--white-ffffff);
+    border-radius: 24px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 20px;
+    padding: 40px;
+    position: relative;
+  }
+  
+  .iphone-pro-max .name-6 {
+    height: 49px;
+    margin-right: -4px;
+    position: relative;
+    width: 181px;
+  }
+  
+  .iphone-pro-max .from-start-to-finish-2 {
+    align-self: stretch;
+    color: var(--text-secondary-828282);
+    font-family: var(--TS-m-font-family);
+    font-size: var(--TS-m-font-size);
+    font-style: var(--TS-m-font-style);
+    font-weight: var(--TS-m-font-weight);
+    letter-spacing: var(--TS-m-letter-spacing);
+    line-height: var(--TS-m-line-height);
+    position: relative;
+  }

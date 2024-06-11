@@ -1,0 +1,345 @@
+.services .carousel .control-dots{
+  bottom: 64px;
+}
+
+.services .carousel-container {
+  position: absolute;
+  left: 30px;
+  top: 139.8px;
+  width: calc(100% - 60px);
+  height: 200px;
+}
+
+.services .carousel .control-dots{
+  bottom: -3px;
+}
+
+
+.services .carousel .dot {
+  background: #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+  height: 10px;
+  margin: 0 5px;
+  width: 10px;
+}
+
+.services .carousel .active-dot {
+  background: #ff4d4d;
+  /* Default active dot color, can be overridden dynamically */
+  border-radius: 50%;
+  display: inline-block;
+  height: 10px;
+  margin: 0 5px;
+  width: 10px;
+}
+
+.services {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 11.38px;
+  left: 68px;
+  position: absolute;
+  top: 1472px;
+}
+
+.frame-6 {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px 29.16px;
+  height: 339.91px;
+  position: relative;
+  width: 262.4px;
+}
+
+.frame-wrapper {
+  height: 73px;
+  position: relative;
+  width: 262.4px;
+}
+
+.frame-7 {
+  align-items: center;
+  background-color: #fedada;
+  border-radius: 10.67px;
+  display: flex;
+  gap: 7.11px;
+  height: 74px;
+  justify-content: center;
+  padding: 4.98px 17.78px;
+  position: relative;
+  width: 262px;
+}
+
+.services .vector {
+  /* height: 48.36px; */
+  position: relative;
+  width: 20%;
+}
+
+.text-wrapper-14 {
+  color: #ed1c24;
+  font-family: "Urbanist", Helvetica;
+  font-size: 21.3px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.frame-8 {
+  align-items: center;
+  background-color: #002263;
+  border-radius: 10.67px;
+  display: flex;
+  gap: 7.11px;
+  height: 78px;
+  justify-content: center;
+  padding: 4.98px 17.78px;
+  position: relative;
+  width: 262px;
+}
+
+.text-wrapper-15 {
+  color: #ffffff;
+  font-family: "Urbanist", Helvetica;
+  font-size: 21.3px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.managed {
+  height: 77.51px;
+  margin-right: -0.09px;
+  position: relative;
+  width: 262.49px;
+}
+
+.frame-9 {
+  align-items: center;
+  background-color: #002263;
+  border-radius: 10.67px;
+  display: inline-flex;
+  gap: 7.11px;
+  height: 78px;
+  padding: 4.98px 17.78px;
+  position: relative;
+}
+
+.other {
+  height: 77.51px;
+  margin-bottom: -12.13px;
+  position: relative;
+  width: 262.4px;
+}
+
+.page {
+  height: 41.88px;
+  position: relative;
+  width: 41.88px;
+}
+
+.frame-10 {
+  background-color: #fedada;
+  border-radius: 13.58px;
+  height: 339.91px;
+  position: relative;
+  width: 615.11px;
+}
+
+.group {
+  height: 36px;
+  left: 38px;
+  position: absolute;
+  top: 17px;
+  width: 168px;
+}
+
+.frame-11 {
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 25.94px;
+  display: flex;
+  gap: 4.54px;
+  height: 36px;
+  justify-content: center;
+  padding: 3.18px 11.36px;
+  position: relative;
+  width: 168px;
+}
+
+.vector-2 {
+  height: 30.91px;
+  margin-bottom: -0.68px;
+  margin-top: -0.68px;
+  position: relative;
+  width: 19.09px;
+}
+
+.text-wrapper-16 {
+  color: #ff4d4d;
+  font-family: "Urbanist", Helvetica;
+  font-size: 13.6px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.text-wrapper-17 {
+  color: #494949;
+  font-family: "Urbanist", Helvetica;
+  font-size: 16.3px;
+  font-weight: 500;
+  left: 38px;
+  letter-spacing: 0;
+  line-height: 19.6px;
+  position: absolute;
+  text-align: justify;
+  top: 65px;
+  width: 547px;
+}
+
+.frame-12 {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 12.8px;
+  left: 21px;
+  position: absolute;
+  top: 139px;
+}
+
+.frame-13 {
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 7.11px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 21.33px;
+  height: 152.89px;
+  overflow: hidden;
+  position: relative;
+  width: 250px;
+}
+
+.rectangle {
+  background-color: #ff4d4d;
+  height: 6.4px;
+  position: relative;
+  width: 280.18px;
+}
+
+.text-wrapper-18 {
+  color: #000000;
+  font-family: "Urbanist", Helvetica;
+  font-size: 17.1px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  width: 246.76px;
+}
+
+.text-wrapper-19 {
+  color: #4c4c4c;
+  font-family: "Urbanist", Helvetica;
+  font-size: 12.8px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 15.4px;
+  position: relative;
+  text-align: center;
+  width: 180.62px;
+}
+
+.frame-14 {
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 7.11px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 7.82px;
+  overflow: hidden;
+  padding: 0px 0px 12.09px;
+  position: relative;
+}
+
+.rectangle-2 {
+  background-color: #ff4d4d;
+  height: 6.4px;
+  position: relative;
+  width: 286.58px;
+}
+
+.text-wrapper-20 {
+  color: #000000;
+  font-family: "Urbanist", Helvetica;
+  font-size: 17.1px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  width: 217.6px;
+}
+
+.text-wrapper-21 {
+  color: #4c4c4c;
+  font-family: "Urbanist", Helvetica;
+  font-size: 12.8px;
+  font-weight: 500;
+  height: 100.27px;
+  letter-spacing: 0;
+  line-height: 15.4px;
+  position: relative;
+  text-align: center;
+  width: 238.22px;
+}
+
+.frame-15 {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 4.49px;
+  left: 295px;
+  position: absolute;
+  top: 313px;
+}
+
+.rectangle-wrapper {
+  background-color: #fca7a7;
+  border-radius: 16.32px;
+  height: 10.2px;
+  position: relative;
+  width: 10.2px;
+}
+
+.rectangle-3 {
+  background-color: #ff4d4d;
+  border-radius: 9.1px;
+  height: 6px;
+  left: 2px;
+  position: relative;
+  top: 2px;
+  width: 6px;
+}
+
+.rectangle-4 {
+  background-color: #ffffff;
+  border-radius: 16.32px;
+  height: 10.2px;
+  position: relative;
+  width: 10.2px;
+}

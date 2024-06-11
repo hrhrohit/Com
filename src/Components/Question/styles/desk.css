@@ -1,0 +1,194 @@
+.iphone-pro-max .question-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 39px;
+  left: 106px;
+  position: absolute;
+  top: 3841px;
+}
+
+.iphone-pro-max .frame-58 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 68px;
+  position: relative;
+}
+
+.iphone-pro-max .have-another-2 {
+  color: #000000;
+  font-family: var(--h3-font-family);
+  font-size: var(--h3-font-size);
+  font-style: var(--h3-font-style);
+  font-weight: var(--h3-font-weight);
+  letter-spacing: var(--h3-letter-spacing);
+  line-height: var(--h3-line-height);
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.iphone-pro-max .frame-59 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 42px;
+  position: relative;
+  width: 982px;
+}
+
+.iphone-pro-max .frame-60 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 60px;
+  position: relative;
+  width: 100%;
+}
+
+.iphone-pro-max .frame-61 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 23px;
+  position: relative;
+  width: 50%;
+}
+
+.iphone-pro-max .div-7 {
+  color: transparent;
+  font-family: var(--h5-font-family);
+  font-size: var(--h5-font-size);
+  font-style: var(--h5-font-style);
+  font-weight: var(--h5-font-weight);
+  letter-spacing: var(--h5-letter-spacing);
+  line-height: var(--h5-line-height);
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.iphone-pro-max .text-wrapper-75 {
+  color: #4c4c4c;
+  font-family: var(--h5-font-family);
+  font-size: var(--h5-font-size);
+  font-style: var(--h5-font-style);
+  font-weight: var(--h5-font-weight);
+  letter-spacing: var(--h5-letter-spacing);
+  line-height: var(--h5-line-height);
+}
+
+.iphone-pro-max .text-wrapper-76 {
+  color: #ff4d4d;
+  font-family: var(--h5-font-family);
+  font-size: var(--h5-font-size);
+  font-style: var(--h5-font-style);
+  font-weight: var(--h5-font-weight);
+  letter-spacing: var(--h5-letter-spacing);
+  line-height: var(--h5-line-height);
+}
+
+.iphone-pro-max .text-wrapper-77 {
+  color: #4c4c4c80;
+  font-family: var(--TS-r-font-family);
+  font-size: var(--TS-r-font-size);
+  font-style: var(--TS-r-font-style);
+  font-weight: var(--TS-r-font-weight);
+  letter-spacing: var(--TS-r-letter-spacing);
+  line-height: var(--TS-r-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.iphone-pro-max .line-11 {
+  height: 1px;
+  object-fit: cover;
+  position: relative;
+  width: 460px;
+}
+
+.iphone-pro-max .line-12 {
+  height: 1px;
+  object-fit: cover;
+  position: relative;
+  width: 982px;
+}
+
+.iphone-pro-max .frame-62 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+
+.iphone-pro-max .frame-63 {
+  align-items: center;
+  background-color: #000000;
+  border-radius: 35px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  padding: 16px 20px;
+  position: relative;
+  transition: background-color 0.3s, color 0.3s;
+  left: 0;
+}
+
+.iphone-pro-max .frame-63:hover {
+  background-color: #FFF;
+  color: #000000;
+  border: 1px solid #000000;
+
+}
+
+.iphone-pro-max .frame-63:hover .text-wrapper-78 {
+  color: #000000;
+}
+
+.iphone-pro-max .text-wrapper-78 {
+  color: #ffffff;
+  font-family: var(--h5-font-family);
+  font-size: var(--h5-font-size);
+  font-style: var(--h5-font-style);
+  font-weight: var(--h5-font-weight);
+  letter-spacing: var(--h5-letter-spacing);
+  line-height: var(--h5-line-height);
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.iphone-pro-max .vector-7 {
+  height: 13.35px;
+  position: relative;
+  width: 13.17px;
+}
+
+.iphone-pro-max .input-style {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #cccccc;
+  padding: 8px 0;
+  background: none;
+  color: #4c4c4c;
+  outline: none;
+}
+
+.iphone-pro-max .frame-31 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 5px;
+  position: relative;
+  width: 100%;
+}
