@@ -18,7 +18,7 @@ const ServicesDesk = () => {
                         professionals who are committed to delivering excellence and exceeding your expectations.
                     </p>
                 </div>
-                <img className="pexels-pavel-2" alt="Pexels pavel" src="/img/pexels-pavel-danilyuk-7658430-1-1.png" />
+                <img className="pexels-pavel-2" alt="Pexels pavel" src="img/pexels-pavel-danilyuk-7658430-1-1.png" />
             </div>
         </>
     )

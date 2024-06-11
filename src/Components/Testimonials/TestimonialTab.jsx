@@ -16,7 +16,7 @@ const TestimonialTab = () => {
               <div className="client-testimonials">
                 <div className="cards">
                   <div className="profile">
-                    <img className="image" alt="Image" src="/img/image.png" />
+                    <img className="image" alt="Image" src="img/image.png" />
                     <div className="name">
                       <div className="text-wrapper-26">Winifred Harmon</div>
                       <div className="text-wrapper-27">Los Angeles, CA</div>
@@ -29,7 +29,7 @@ const TestimonialTab = () => {
                 </div>
                 <div className="cards">
                   <div className="profile">
-                    <img className="image" alt="Image" src="/img/image-1.png" />
+                    <img className="image" alt="Image" src="img/image-1.png" />
                     <div className="name-2">
                       <div className="text-wrapper-26">Henry Barton</div>
                       <div className="text-wrapper-27">Los Angeles, CA</div>
@@ -42,7 +42,7 @@ const TestimonialTab = () => {
                 </div>
                 <div className="cards-2">
                   <div className="profile">
-                    <img className="image" alt="Image" src="/img/image-2.png" />
+                    <img className="image" alt="Image" src="img/image-2.png" />
                     <div className="name-3">
                       <div className="text-wrapper-26">Shelia Lawrence</div>
                       <div className="text-wrapper-27">Los Angeles, CA</div>

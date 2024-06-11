@@ -3,7 +3,7 @@ const GoalsDesk = () => {
     return (
         <>
             <div className="our-goals-3">
-                <img className="mask-group-3" alt="Mask group" src="/img/mask-group-2.png" />
+                <img className="mask-group-3" alt="Mask group" src="img/mask-group-2.png" />
                 <div className="ourgoals-2">
                     <div className="frame-40">
                         <div className="text-wrapper-49">Our Goals</div>

@@ -22,7 +22,7 @@ const GoalsMob = () => {
                             <p className="text-wrapper-23">We Provide The Best Solution For Your Business Development</p>
                         </div>
                         <div className="mask-group-wrapper">
-                            <img className="mask-group-2" alt="Mask group" src="/img/mask-group.png" />
+                            <img className="mask-group-2" alt="Mask group" src="img/mask-group.png" />
                         </div>
                         <p className="text-wrapper-24">
                             Our expert team specializes in delivering meticulous provisioning processes and advanced

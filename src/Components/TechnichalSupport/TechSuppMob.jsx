@@ -171,7 +171,7 @@ const TechSuppMob = () => {
                     technical: { backgroundColor: selectedService === service ? "#FFC5C5" : "#FEDADA" },
                     textWrapper80: { color: selectedService === service ? "#FF4E4E" : "#FF4D4D" },
                     serviceDetails: { backgroundColor: selectedService === service ? "#FFC5C5" : "#FEDADA" },
-                    frame46Image: "/newImg/tech.png",
+                    frame46Image: "newImg/tech.png",
                     frame46Text: "#FF4E4E",
                     iconColor: selectedService === service ? "#FF4E4E" : "#FF4D4D",
                     rectangleColor: "#FF4E4E",
@@ -182,7 +182,7 @@ const TechSuppMob = () => {
                     technical: { backgroundColor: selectedService === service ? "#D2FDF0" : "#A7F9E0" },
                     textWrapper80: { color: selectedService === service ? "#00CE90" : "#3EDEAE" },
                     serviceDetails: { backgroundColor: selectedService === service ? "#D2FDF0" : "#FEDADA" },
-                    frame46Image: "/newImg/bill.png",
+                    frame46Image: "newImg/bill.png",
                     frame46Text: "#00CE90",
                     iconColor: selectedService === service ? "#00CE90" : "#3EDEAE",
                     rectangleColor: "#00CE90",
@@ -193,7 +193,7 @@ const TechSuppMob = () => {
                     technical: { backgroundColor: selectedService === service ? "#C1D6FF" : "#C1D6FF" },
                     textWrapper80: { color: selectedService === service ? "#5B94FF" : "#5A94FF" },
                     serviceDetails: { backgroundColor: selectedService === service ? "#C1D6FF" : "#FEDADA" },
-                    frame46Image: "/newImg/mp.png",
+                    frame46Image: "newImg/mp.png",
                     frame46Text: "#5B94FF",
                     iconColor: selectedService === service ? "#5B94FF" : "#5A94FF",
                     rectangleColor: "#5B94FF",
@@ -204,7 +204,7 @@ const TechSuppMob = () => {
                     technical: { backgroundColor: selectedService === service ? "#E8D1FF" : "#E8D1FF" },
                     textWrapper80: { color: selectedService === service ? "#BA75FF" : "#BA74FF" },
                     serviceDetails: { backgroundColor: selectedService === service ? "#E8D1FF" : "#FEDADA" },
-                    frame46Image: "/newImg/os.png",
+                    frame46Image: "newImg/os.png",
                     frame46Text: "#BA75FF",
                     iconColor: selectedService === service ? "#BA75FF" : "#BA74FF",
                     rectangleColor: "#BA75FF",
@@ -233,7 +233,7 @@ const TechSuppMob = () => {
                         <div className="group-7">
                             <div className="frame-11" style={{ backgroundColor: "#FFFFFF" }}>
                             {
-                                serviceStyles.frame46Image === "/newImg/tech.png" ?
+                                serviceStyles.frame46Image === "newImg/tech.png" ?
                                     <img className="w-[14%] h-full" alt="Vector" src={serviceStyles.frame46Image} />
                                     :<img className="vector-2" alt="Vector" src={serviceStyles.frame46Image} />
                             }

@@ -20,6 +20,9 @@ import TestimonialMob from "./Testimonials/TestimonialMob";
 import Questiondesk from "./Question/Questiondesk";
 import QuestionTab from "./Question/QuestionTab";
 import QuestionMob from "./Question/QuestionMob";
+import FooterDesk from "./Footer/FooterDesk";
+import FooterTab from "./Footer/FooterTab";
+import FooterMob from "./Footer/FooterMob";
 
 const Landing = () => {
   const screenWidth = useWindowWidth();
@@ -141,6 +144,13 @@ const Landing = () => {
         {screenWidth >= 1024 && screenWidth < 1440 && <QuestionTab />}
         {screenWidth < 1024 && <QuestionMob />}
 
+        {screenWidth >= 1440 && <FooterDesk />}
+        {screenWidth >= 1024 && screenWidth < 1440 && <FooterTab />}
+        {screenWidth < 1024 && <FooterMob />}
+
+
+
+
 
 
 
@@ -194,65 +204,13 @@ const Landing = () => {
               </div>
             </div>
 
-            <footer className="footer">
-              <div className="frame-27">
-                <div className="frame-28">
-                  <img
-                    className="logo-final-working"
-                    alt="Logo final working"
-                    src="img/logo-final-working-file-01-1-1.png"
-                  />
-                  <img className="group-2" alt="Group" src="img/group-3-1.png" />
-                </div>
-                <div className="frame-29">
-                  <p className="text-wrapper-37">Phone : +1 000 000 00</p>
-                  <div className="text-wrapper-38">Email : comstream@gmail.com</div>
-                </div>
-              </div>
-              <div className="frame-30">
-                <div className="navigate">
-                  <div className="frame-31">
-                    <div className="text-wrapper-39">Navigate</div>
-                    <img className="line-4" alt="Line" src="img/line-4-1.svg" />
-                  </div>
-                  <div className="frame-32">
-                    <div className="text-wrapper-40">Home</div>
-                    <div className="text-wrapper-41">About Us</div>
-                    <div className="text-wrapper-41">Contact Us</div>
-                    <div className="text-wrapper-41">Case Studies</div>
-                    <div className="text-wrapper-41">Testimonials</div>
-                  </div>
-                </div>
-                <div className="frame-33">
-                  <div className="frame-31">
-                    <div className="text-wrapper-39">Services</div>
-                    <img className="line-5" alt="Line" src="img/line-5-1.svg" />
-                  </div>
-                  <div className="frame-32">
-                    <div className="text-wrapper-40">Technical</div>
-                    <div className="text-wrapper-41">Managed Platforms</div>
-                    <div className="text-wrapper-41">Billing Support</div>
-                    <div className="text-wrapper-41">Other Services</div>
-                  </div>
-                </div>
-                <div className="frame-33">
-                  <div className="frame-34">
-                    <div className="text-wrapper-39">Legal</div>
-                    <img className="line-6" alt="Line" src="img/line-6-1.svg" />
-                  </div>
-                  <div className="frame-32">
-                    <div className="text-wrapper-40">Privacy Statement</div>
-                    <div className="text-wrapper-41">Terms of Use</div>
-                  </div>
-                </div>
-              </div>
-            </footer>
+
           </>
         )}
 
         {screenWidth >= 1440 && (
           <>
-            <div className="frame-35">
+            {/* <div className="frame-35">
               <div className="frame-36">
                 <img className="vector-4" alt="Vector" src="img/page-1-1.png" />
                 <div className="text-wrapper-42">Technical Support</div>
@@ -269,63 +227,11 @@ const Landing = () => {
                 <img className="page-2" alt="Page" src="img/page-1-1.png" />
                 <div className="text-wrapper-45">Other Services</div>
               </div>
-            </div>
+            </div> */}
 
 
 
-            <footer className="footer-2">
-              <div className="frame-51">
-                <div className="frame-28">
-                  <img
-                    className="logo-final-working-2"
-                    alt="Logo final working"
-                    src="img/logo-final-working-file-01-1-2.png"
-                  />
-                  <img className="group-5" alt="Group" src="img/group-3-2.png" />
-                </div>
-                <div className="frame-29">
-                  <p className="text-wrapper-59">Phone : +1 000 000 00</p>
-                  <div className="text-wrapper-60">Email : comstream@gmail.com</div>
-                </div>
-              </div>
-              <div className="frame-52">
-                <div className="navigate-2">
-                  <div className="frame-53">
-                    <div className="text-wrapper-61">Navigate</div>
-                    <img className="line-7" alt="Line" src="img/line-4-2.svg" />
-                  </div>
-                  <div className="div-4">
-                    <div className="text-wrapper-62">Home</div>
-                    <div className="text-wrapper-63">About Us</div>
-                    <div className="text-wrapper-63">Contact Us</div>
-                    <div className="text-wrapper-63">Case Studies</div>
-                    <div className="text-wrapper-63">Testimonials</div>
-                  </div>
-                </div>
-                <div className="frame-54">
-                  <div className="frame-53">
-                    <div className="text-wrapper-61">Services</div>
-                    <img className="line-8" alt="Line" src="img/line-5-2.svg" />
-                  </div>
-                  <div className="div-4">
-                    <div className="text-wrapper-62">Technical</div>
-                    <div className="text-wrapper-63">Managed Platforms</div>
-                    <div className="text-wrapper-63">Billing Support</div>
-                    <div className="text-wrapper-63">Other Services</div>
-                  </div>
-                </div>
-                <div className="frame-54">
-                  <div className="frame-55">
-                    <div className="text-wrapper-61">Legal</div>
-                    <img className="line-9" alt="Line" src="img/line-6-2.svg" />
-                  </div>
-                  <div className="div-4">
-                    <div className="text-wrapper-62">Privacy Statement</div>
-                    <div className="text-wrapper-63">Terms of Use</div>
-                  </div>
-                </div>
-              </div>
-            </footer>
+
 
             <div className="why-choose-us-2">
               <div className="why-choose-us-all-2">
@@ -359,7 +265,7 @@ const Landing = () => {
                 <div className="div-5">
                   <img className="img-4" alt="Unparalleled" src="img/unparalleled-expertise-2.svg" />
                   <div className="unparalleled-2">
-                    <div className="text-wrapper-74">Unparalleled Expertise</div>
+                    <div className="text-wrapper-74">Unparalleled<br />Expertise</div>
                     <p className="text-wrapper-73">
                       Our skilled and experienced members are dedicated to delivering top-notch service.
                     </p>
@@ -374,14 +280,14 @@ const Landing = () => {
                 </div>
               </div>
             </div>
-            
+
           </>
         )}
 
         {screenWidth < 1024 && (
           <>
 
-       
+
             <div className="why-choose-US">
               <div className="div-4">
                 <div className="text-wrapper-88">Why Choose Us</div>
@@ -427,64 +333,10 @@ const Landing = () => {
                 </div>
               </div>
             </div>
-        
-           
 
-            <footer className="footer-3">
-              <div className="frame-73">
-                <div className="frame-27">
-                  <div className="frame-28">
-                    <img
-                      className="logo-final-working"
-                      alt="Logo final working"
-                      src="img/logo-final-working-file-01-1.png"
-                    />
-                    <img className="group-2" alt="Group" src="img/group-3.png" />
-                  </div>
-                  <div className="frame-29">
-                    <p className="text-wrapper-37">Phone : +1 000 000 00</p>
-                    <div className="text-wrapper-38">Email : comstream@gmail.com</div>
-                  </div>
-                </div>
-                <div className="frame-74">
-                  <div className="frame-33">
-                    <div className="frame-31">
-                      <div className="text-wrapper-39">Services</div>
-                      <img className="line-5" alt="Line" src="img/line-5.svg" />
-                    </div>
-                    <div className="frame-32">
-                      <div className="text-wrapper-40">Technical</div>
-                      <div className="text-wrapper-41">Managed Platforms</div>
-                      <div className="text-wrapper-41">Billing Support</div>
-                      <div className="text-wrapper-41">Other Services</div>
-                    </div>
-                  </div>
-                  <div className="navigate">
-                    <div className="frame-31">
-                      <div className="text-wrapper-39">Navigate</div>
-                      <img className="line-4" alt="Line" src="img/line-4.svg" />
-                    </div>
-                    <div className="frame-32">
-                      <div className="text-wrapper-40">Home</div>
-                      <div className="text-wrapper-41">About Us</div>
-                      <div className="text-wrapper-41">Contact Us</div>
-                      <div className="text-wrapper-41">Case Studies</div>
-                      <div className="text-wrapper-41">Testimonials</div>
-                    </div>
-                  </div>
-                  <div className="frame-33">
-                    <div className="frame-34">
-                      <div className="text-wrapper-39">Legal</div>
-                      <img className="line-6" alt="Line" src="img/line-6.svg" />
-                    </div>
-                    <div className="frame-32">
-                      <div className="text-wrapper-40">Privacy Statement</div>
-                      <div className="text-wrapper-41">Terms of Use</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </footer>
+
+
+
             <div className="trusted-by-2">
               <img className="PC-w" alt="Pc w" src="img/pc-w-1-1.svg" />
               <img className="img-6" alt="Img" src="img/65546b3ead9395d0b0aacee9-croo-logo-1.svg" />

@@ -4,7 +4,7 @@ const GoalsTab = () => {
     return (
         <>
             <div className="our-goals">
-                <img className="mask-group" alt="Mask group" src="/img/mask-group-1.png" />
+                <img className="mask-group" alt="Mask group" src="img/mask-group-1.png" />
                 <div className="ourgoals">
                     <div className="frame-5">
                         <div className="text-wrapper-12">Our Goals</div>

@@ -1,0 +1,249 @@
+.footer {
+  align-items: flex-start;
+  background-color: #282828;
+  display: flex;
+  gap: 265px;
+  height: 242px;
+  left: 0;
+  padding: 21px 10px;
+  position: absolute;
+  top: 3118px;
+  width: 1024px;
+}
+
+.footer .frame-27 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+}
+
+.footer .frame-28 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+}
+
+.footer .logo-final-working {
+  height: 76.8px;
+  position: relative;
+  width: 232.53px;
+}
+
+.footer .group-2 {
+  height: 6.88px;
+  position: relative;
+  width: 107.38px;
+}
+
+.footer .frame-29 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.footer .text-wrapper-37 {
+  color: #9e9e9e;
+  font-family: "Urbanist", Helvetica;
+  font-size: 12.8px;
+  font-weight: 500;
+  height: 15.64px;
+  letter-spacing: 0;
+  line-height: 15.4px;
+  margin-top: -0.71px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: 128px;
+}
+
+.footer .text-wrapper-38 {
+  color: #9e9e9e;
+  font-family: "Urbanist", Helvetica;
+  font-size: 12.8px;
+  font-weight: 500;
+  height: 15.64px;
+  letter-spacing: 0;
+  line-height: 15.4px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: 179.91px;
+}
+
+.footer .frame-30 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 80px;
+  position: relative;
+}
+
+.footer .navigate {
+  align-items: flex-end;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 13px;
+  position: relative;
+}
+
+
+
+.footer .text-wrapper-39 {
+  color: #ffffff;
+  font-family: "Urbanist", Helvetica;
+  font-size: 17.1px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.footer .line-4 {
+  height: 1px;
+  margin-bottom: -0.29px;
+  position: relative;
+  width: 69.98px;
+}
+
+.footer .frame-32 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 14.22px;
+  justify-content: center;
+  position: relative;
+}
+
+.footer .text-wrapper-40 {
+  color: #9e9e9e;
+  font-family: "Urbanist", Helvetica;
+  font-size: 12.8px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 15.4px;
+  margin-top: -0.71px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.footer .text-wrapper-41 {
+  color: #9e9e9e;
+  font-family: "Urbanist", Helvetica;
+  font-size: 12.8px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 15.4px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.footer .frame-33 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 13px;
+  position: relative;
+}
+
+.footer .line-5 {
+  height: 1px;
+  margin-bottom: -0.29px;
+  position: relative;
+  width: 68.27px;
+}
+
+.footer .frame-34 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 5px;
+  position: relative;
+}
+
+.footer .line-6 {
+  height: 1px;
+  margin-bottom: -0.29px;
+  position: relative;
+  width: 90.31px;
+}
+
+.footer .footer-3 {
+  align-items: flex-start;
+  background-color: #282828;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  left: 0;
+  padding: 54px 20px;
+  position: absolute;
+  top: 3678px;
+  width: 430px;
+}
+
+.footer .frame-73 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 17px;
+  position: relative;
+}
+
+.footer .frame-74 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 46px;
+  position: relative;
+}
+
+.footer .text-wrapper-37:hover, 
+.footer .text-wrapper-38:hover, 
+.footer .text-wrapper-40:hover, 
+.footer .text-wrapper-41:hover {
+    color: #ffffff; /* Changes text color to white on hover */
+    cursor: pointer; /* Indicates clickable items */
+}
+
+.footer .text-wrapper-37, 
+.footer .text-wrapper-38, 
+.footer .text-wrapper-40, 
+.footer .text-wrapper-41 {
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.footer a {
+  color: inherit; /* Inherits color from parent for consistency */
+  text-decoration: none; /* Removes underline from links */
+}
+
+.footer .frame-31 {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 5px;
+  position: relative;
+  width: 100%;
+}
+

@@ -35,9 +35,9 @@ const Navbar = () => {
                     alt="Frame"
                     src={
                         screenWidth >= 1024 && screenWidth < 1440
-                            ? "/img/frame-1.svg"
+                            ? "img/frame-1.svg"
                             : screenWidth >= 1440
-                                ? "/img/frame-1-1.svg"
+                                ? "img/frame-1-1.svg"
                                 : undefined
                     }
                 />

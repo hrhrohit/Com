@@ -59,9 +59,9 @@ const TrustedBy = () => {
                     alt="Frame"
                     src={
                         screenWidth >= 1024 && screenWidth < 1440
-                            ? "/img/frame-38.svg"
+                            ? "img/frame-38.svg"
                             : screenWidth >= 1440
-                                ? "/img/frame-38-1.svg"
+                                ? "img/frame-38-1.svg"
                                 : undefined
                     }
                 />

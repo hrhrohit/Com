@@ -6,19 +6,19 @@ import "./Styles/mob.css";
 const testimonials = [
     {
         review: "Choosing Comstream was the best decision I made for my company needs. Their professionalism, reliability, and skilled team made the entire process stress-free.",
-        imageUrl: "/img/winifred-harmon.png",
+        imageUrl: "img/winifred-harmon.png",
         userName: "Winifred Harmon",
         userLocation: "Los Angeles, CA"
     },
     {
         review: "Comstream's service was exceptional from start to finish. They truly understand the needs of their clients.",
-        imageUrl: "/img/image-4.png",
+        imageUrl: "img/image-4.png",
         userName: "John Doe",
         userLocation: "New York, NY"
     },
     {
         review: "I am beyond pleased with the communication and results that Comstream delivered. Highly recommend!",
-        imageUrl: "/img/image-5.png",
+        imageUrl: "img/image-5.png",
         userName: "Jane Doe",
         userLocation: "Chicago, IL"
     }
@@ -73,10 +73,10 @@ const TestimonialMob = () => {
                 </Carousel>
                 <div className="icons">
                     <div className="icon" onClick={goToPrev}>
-                        <img className="right" alt="Right" src="/img/right.png" />
+                        <img className="right" alt="Right" src="img/right.png" />
                     </div>
                     <div className="right-wrapper" onClick={goToNext}>
-                        <img className="right-2" alt="Right" src="/img/right-1.png" />
+                        <img className="right-2" alt="Right" src="img/right-1.png" />
                     </div>
                 </div>
             </div>

@@ -179,7 +179,7 @@ const TechSuppTab = () => {
                     frame7: { backgroundColor: selectedService === service ? "#FFC5C5" : "#002263" },
                     textWrapper14: { color: selectedService === service ? "#FF4E4E" : "#FFFFFF" },
                     frame10: { backgroundColor: selectedService === service ? "#FFC5C5" : "#FEDADA" },
-                    frame46Image: "/newImg/tech.png",
+                    frame46Image: "newImg/tech.png",
                     frame46Text: "#FF4E4E",
                     iconColor: selectedService === service ? "#FF4E4E" : "#FFFFFF",
                     rectangleColor: "#FF4E4E",
@@ -190,7 +190,7 @@ const TechSuppTab = () => {
                     frame7: { backgroundColor: selectedService === service ? "#D2FDF0" : "#002263" },
                     textWrapper14: { color: selectedService === service ? "#00CE90" : "#FFFFFF" },
                     frame10: { backgroundColor: selectedService === service ? "#D2FDF0" : "#FEDADA" },
-                    frame46Image: "/newImg/bill.png",
+                    frame46Image: "newImg/bill.png",
                     frame46Text: "#00CE90",
                     iconColor: selectedService === service ? "#00CE90" : "#FFFFFF",
                     rectangleColor: "#00CE90",
@@ -201,7 +201,7 @@ const TechSuppTab = () => {
                     frame7: { backgroundColor: selectedService === service ? "#C1D6FF" : "#002263" },
                     textWrapper14: { color: selectedService === service ? "#5B94FF" : "#FFFFFF" },
                     frame10: { backgroundColor: selectedService === service ? "#C1D6FF" : "#FEDADA" },
-                    frame46Image: "/newImg/mp.png",
+                    frame46Image: "newImg/mp.png",
                     frame46Text: "#5B94FF",
                     iconColor: selectedService === service ? "#5B94FF" : "#FFFFFF",
                     rectangleColor: "#5B94FF",
@@ -212,7 +212,7 @@ const TechSuppTab = () => {
                     frame7: { backgroundColor: selectedService === service ? "#E8D1FF" : "#002263" },
                     textWrapper14: { color: selectedService === service ? "#BA75FF" : "#FFFFFF" },
                     frame10: { backgroundColor: selectedService === service ? "#E8D1FF" : "#FEDADA" },
-                    frame46Image: "/newImg/os.png",
+                    frame46Image: "newImg/os.png",
                     frame46Text: "#BA75FF",
                     iconColor: selectedService === service ? "#BA75FF" : "#FFFFFF",
                     rectangleColor: "#BA75FF",
@@ -246,7 +246,7 @@ const TechSuppTab = () => {
                     <div className="group">
                         <div className="frame-11" style={{ backgroundColor: "#FFFFFF" }}>
                             {
-                                serviceStyles.frame46Image === "/newImg/tech.png" ?
+                                serviceStyles.frame46Image === "newImg/tech.png" ?
                                     <img className="w-[14%]" alt="Vector" src={serviceStyles.frame46Image} />
                                     :<img className="vector" alt="Vector" src={serviceStyles.frame46Image} />
                             }
