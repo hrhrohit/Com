@@ -49,9 +49,9 @@ const Landing = () => {
           alt="Pexels apasaric"
           src={
             screenWidth >= 1024 && screenWidth < 1440
-              ? "/img/pexels-apasaric-325185-1-1.png"
+              ? "img/pexels-apasaric-325185-1-1.png"
               : screenWidth >= 1440
-                ? "/img/pexels-apasaric-325185-1-2.png"
+                ? "img/pexels-apasaric-325185-1-2.png"
                 : undefined
           }
         />
@@ -159,7 +159,7 @@ const Landing = () => {
                   <div className="frame-18">
                     <div className="text-wrapper-30">40K</div>
                     <div className="text-wrapper-30">15+</div>
-                    <img className="line" alt="Line" src="/img/line-1-1.svg" />
+                    <img className="line" alt="Line" src="img/line-1-1.svg" />
                   </div>
                   <div className="frame-19">
                     <div className="text-wrapper-31">Our Customers</div>
@@ -169,14 +169,14 @@ const Landing = () => {
               </div>
               <div className="element-reasons">
                 <div className="div-2">
-                  <img className="img-3" alt="Icon" src="/img/icon-1.svg" />
+                  <img className="img-3" alt="Icon" src="img/icon-1.svg" />
                   <div className="reliable-and-timely">
                     <div className="text-wrapper-32">Reliable and Timely Service</div>
                     <p className="text-wrapper-33">We value your time and understand the urgency of problems.</p>
                   </div>
                 </div>
                 <div className="div-2">
-                  <img className="img-3" alt="Unparalleled" src="/img/unparalleled-expertise-1.svg" />
+                  <img className="img-3" alt="Unparalleled" src="img/unparalleled-expertise-1.svg" />
                   <div className="unparalleled">
                     <div className="text-wrapper-34">Unparalleled Expertise</div>
                     <p className="text-wrapper-33">
@@ -185,7 +185,7 @@ const Landing = () => {
                   </div>
                 </div>
                 <div className="div-2">
-                  <img className="img-3" alt="Satisfaction" src="/img/satisfaction-guaranteed-text-1.svg" />
+                  <img className="img-3" alt="Satisfaction" src="img/satisfaction-guaranteed-text-1.svg" />
                   <div className="satisfaction">
                     <div className="text-wrapper-32">Satisfaction guaranteed</div>
                     <p className="text-wrapper-33">Customer satisfaction is at the core of everything we do.</p>
@@ -200,9 +200,9 @@ const Landing = () => {
                   <img
                     className="logo-final-working"
                     alt="Logo final working"
-                    src="/img/logo-final-working-file-01-1-1.png"
+                    src="img/logo-final-working-file-01-1-1.png"
                   />
-                  <img className="group-2" alt="Group" src="/img/group-3-1.png" />
+                  <img className="group-2" alt="Group" src="img/group-3-1.png" />
                 </div>
                 <div className="frame-29">
                   <p className="text-wrapper-37">Phone : +1 000 000 00</p>
@@ -213,7 +213,7 @@ const Landing = () => {
                 <div className="navigate">
                   <div className="frame-31">
                     <div className="text-wrapper-39">Navigate</div>
-                    <img className="line-4" alt="Line" src="/img/line-4-1.svg" />
+                    <img className="line-4" alt="Line" src="img/line-4-1.svg" />
                   </div>
                   <div className="frame-32">
                     <div className="text-wrapper-40">Home</div>
@@ -226,7 +226,7 @@ const Landing = () => {
                 <div className="frame-33">
                   <div className="frame-31">
                     <div className="text-wrapper-39">Services</div>
-                    <img className="line-5" alt="Line" src="/img/line-5-1.svg" />
+                    <img className="line-5" alt="Line" src="img/line-5-1.svg" />
                   </div>
                   <div className="frame-32">
                     <div className="text-wrapper-40">Technical</div>
@@ -238,7 +238,7 @@ const Landing = () => {
                 <div className="frame-33">
                   <div className="frame-34">
                     <div className="text-wrapper-39">Legal</div>
-                    <img className="line-6" alt="Line" src="/img/line-6-1.svg" />
+                    <img className="line-6" alt="Line" src="img/line-6-1.svg" />
                   </div>
                   <div className="frame-32">
                     <div className="text-wrapper-40">Privacy Statement</div>
@@ -254,19 +254,19 @@ const Landing = () => {
           <>
             <div className="frame-35">
               <div className="frame-36">
-                <img className="vector-4" alt="Vector" src="/img/page-1-1.png" />
+                <img className="vector-4" alt="Vector" src="img/page-1-1.png" />
                 <div className="text-wrapper-42">Technical Support</div>
               </div>
               <div className="frame-36">
-                <img className="report" alt="Report" src="/img/page-1-1.png" />
+                <img className="report" alt="Report" src="img/page-1-1.png" />
                 <div className="text-wrapper-43">Billing Support</div>
               </div>
               <div className="frame-37">
-                <img className="frame-38" alt="Frame" src="/img/page-1-1.png" />
+                <img className="frame-38" alt="Frame" src="img/page-1-1.png" />
                 <div className="text-wrapper-44">Managed Platform</div>
               </div>
               <div className="frame-36">
-                <img className="page-2" alt="Page" src="/img/page-1-1.png" />
+                <img className="page-2" alt="Page" src="img/page-1-1.png" />
                 <div className="text-wrapper-45">Other Services</div>
               </div>
             </div>
@@ -279,9 +279,9 @@ const Landing = () => {
                   <img
                     className="logo-final-working-2"
                     alt="Logo final working"
-                    src="/img/logo-final-working-file-01-1-2.png"
+                    src="img/logo-final-working-file-01-1-2.png"
                   />
-                  <img className="group-5" alt="Group" src="/img/group-3-2.png" />
+                  <img className="group-5" alt="Group" src="img/group-3-2.png" />
                 </div>
                 <div className="frame-29">
                   <p className="text-wrapper-59">Phone : +1 000 000 00</p>
@@ -292,7 +292,7 @@ const Landing = () => {
                 <div className="navigate-2">
                   <div className="frame-53">
                     <div className="text-wrapper-61">Navigate</div>
-                    <img className="line-7" alt="Line" src="/img/line-4-2.svg" />
+                    <img className="line-7" alt="Line" src="img/line-4-2.svg" />
                   </div>
                   <div className="div-4">
                     <div className="text-wrapper-62">Home</div>
@@ -305,7 +305,7 @@ const Landing = () => {
                 <div className="frame-54">
                   <div className="frame-53">
                     <div className="text-wrapper-61">Services</div>
-                    <img className="line-8" alt="Line" src="/img/line-5-2.svg" />
+                    <img className="line-8" alt="Line" src="img/line-5-2.svg" />
                   </div>
                   <div className="div-4">
                     <div className="text-wrapper-62">Technical</div>
@@ -317,7 +317,7 @@ const Landing = () => {
                 <div className="frame-54">
                   <div className="frame-55">
                     <div className="text-wrapper-61">Legal</div>
-                    <img className="line-9" alt="Line" src="/img/line-6-2.svg" />
+                    <img className="line-9" alt="Line" src="img/line-6-2.svg" />
                   </div>
                   <div className="div-4">
                     <div className="text-wrapper-62">Privacy Statement</div>
@@ -340,7 +340,7 @@ const Landing = () => {
                   <div className="frame-56">
                     <div className="text-wrapper-70">40K</div>
                     <div className="text-wrapper-70">15+</div>
-                    <img className="line-10" alt="Line" src="/img/line-1-2.svg" />
+                    <img className="line-10" alt="Line" src="img/line-1-2.svg" />
                   </div>
                   <div className="frame-57">
                     <div className="text-wrapper-71">Our Customers</div>
@@ -350,14 +350,14 @@ const Landing = () => {
               </div>
               <div className="element-reasons-2">
                 <div className="div-5">
-                  <img className="img-4" alt="Icon" src="/img/icon-2.svg" />
+                  <img className="img-4" alt="Icon" src="img/icon-2.svg" />
                   <div className="reliable-and-timely-2">
                     <div className="text-wrapper-72">Reliable and Timely Service</div>
                     <p className="text-wrapper-73">We value your time and understand the urgency of problems.</p>
                   </div>
                 </div>
                 <div className="div-5">
-                  <img className="img-4" alt="Unparalleled" src="/img/unparalleled-expertise-2.svg" />
+                  <img className="img-4" alt="Unparalleled" src="img/unparalleled-expertise-2.svg" />
                   <div className="unparalleled-2">
                     <div className="text-wrapper-74">Unparalleled Expertise</div>
                     <p className="text-wrapper-73">
@@ -366,7 +366,7 @@ const Landing = () => {
                   </div>
                 </div>
                 <div className="div-5">
-                  <img className="img-4" alt="Satisfaction" src="/img/satisfaction-guaranteed-text-2.svg" />
+                  <img className="img-4" alt="Satisfaction" src="img/satisfaction-guaranteed-text-2.svg" />
                   <div className="div-6">
                     <div className="text-wrapper-72">Satisfaction guaranteed</div>
                     <p className="text-wrapper-73">Customer satisfaction is at the core of everything we do.</p>
@@ -392,14 +392,14 @@ const Landing = () => {
               </div>
               <div className="card">
                 <div className="reliable-and-timely-3">
-                  <img className="img-5" alt="Icon" src="/img/icon.svg" />
+                  <img className="img-5" alt="Icon" src="img/icon.svg" />
                   <div className="div-6">
                     <div className="text-wrapper-89">Reliable and Timely Service</div>
                     <p className="text-wrapper-90">We value your time and understand the urgency of problems.</p>
                   </div>
                 </div>
                 <div className="div-8">
-                  <img className="img-5" alt="Unparalleled" src="/img/unparalleled-expertise.svg" />
+                  <img className="img-5" alt="Unparalleled" src="img/unparalleled-expertise.svg" />
                   <div className="div-6">
                     <div className="text-wrapper-89">Unparalleled Expertise</div>
                     <p className="text-wrapper-90">
@@ -408,7 +408,7 @@ const Landing = () => {
                   </div>
                 </div>
                 <div className="div-8">
-                  <img className="img-5" alt="Satisfaction" src="/img/satisfaction-guaranteed-text.svg" />
+                  <img className="img-5" alt="Satisfaction" src="img/satisfaction-guaranteed-text.svg" />
                   <div className="div-6">
                     <div className="text-wrapper-89">Satisfaction guaranteed</div>
                     <p className="text-wrapper-90">Customer satisfaction is at the core of everything we do.</p>
@@ -419,7 +419,7 @@ const Landing = () => {
                 <div className="frame-18">
                   <div className="text-wrapper-30">40K</div>
                   <div className="text-wrapper-30">15+</div>
-                  <img className="line" alt="Line" src="/img/line-1.svg" />
+                  <img className="line" alt="Line" src="img/line-1.svg" />
                 </div>
                 <div className="frame-19">
                   <div className="text-wrapper-31">Our Customers</div>
@@ -437,9 +437,9 @@ const Landing = () => {
                     <img
                       className="logo-final-working"
                       alt="Logo final working"
-                      src="/img/logo-final-working-file-01-1.png"
+                      src="img/logo-final-working-file-01-1.png"
                     />
-                    <img className="group-2" alt="Group" src="/img/group-3.png" />
+                    <img className="group-2" alt="Group" src="img/group-3.png" />
                   </div>
                   <div className="frame-29">
                     <p className="text-wrapper-37">Phone : +1 000 000 00</p>
@@ -450,7 +450,7 @@ const Landing = () => {
                   <div className="frame-33">
                     <div className="frame-31">
                       <div className="text-wrapper-39">Services</div>
-                      <img className="line-5" alt="Line" src="/img/line-5.svg" />
+                      <img className="line-5" alt="Line" src="img/line-5.svg" />
                     </div>
                     <div className="frame-32">
                       <div className="text-wrapper-40">Technical</div>
@@ -462,7 +462,7 @@ const Landing = () => {
                   <div className="navigate">
                     <div className="frame-31">
                       <div className="text-wrapper-39">Navigate</div>
-                      <img className="line-4" alt="Line" src="/img/line-4.svg" />
+                      <img className="line-4" alt="Line" src="img/line-4.svg" />
                     </div>
                     <div className="frame-32">
                       <div className="text-wrapper-40">Home</div>
@@ -475,7 +475,7 @@ const Landing = () => {
                   <div className="frame-33">
                     <div className="frame-34">
                       <div className="text-wrapper-39">Legal</div>
-                      <img className="line-6" alt="Line" src="/img/line-6.svg" />
+                      <img className="line-6" alt="Line" src="img/line-6.svg" />
                     </div>
                     <div className="frame-32">
                       <div className="text-wrapper-40">Privacy Statement</div>
@@ -486,10 +486,10 @@ const Landing = () => {
               </div>
             </footer>
             <div className="trusted-by-2">
-              <img className="PC-w" alt="Pc w" src="/img/pc-w-1-1.svg" />
-              <img className="img-6" alt="Img" src="/img/65546b3ead9395d0b0aacee9-croo-logo-1.svg" />
-              <img className="iplabs" alt="Iplabs" src="/img/ip3labs-1.svg" />
-              <img className="frame-75" alt="Frame" src="/img/frame-58-1.svg" />
+              <img className="PC-w" alt="Pc w" src="img/pc-w-1-1.svg" />
+              <img className="img-6" alt="Img" src="img/65546b3ead9395d0b0aacee9-croo-logo-1.svg" />
+              <img className="iplabs" alt="Iplabs" src="img/ip3labs-1.svg" />
+              <img className="frame-75" alt="Frame" src="img/frame-58-1.svg" />
               <div className="text-wrapper-94">Trusted By</div>
             </div>
           </>
