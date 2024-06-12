@@ -1,0 +1,51 @@
+.trusted-by-2 {
+    align-items: center;
+    background-color: #282828;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px 23.3px;
+    height: 153px;
+    justify-content: center;
+    left: 0;
+    padding: 5px 0px 0px;
+    position: absolute;
+    top: 551px;
+    width: 430px;
+}
+
+.trusted-by-2 .PC-w {
+    height: 75.93px;
+    position: relative;
+    width: 104.02px;
+}
+
+.trusted-by-2 .img-6 {
+    height: 27.82px;
+    position: relative;
+    width: 99.35px;
+}
+
+.trusted-by-2 .iplabs {
+    height: 59.3px;
+    position: relative;
+    width: 135.99px;
+}
+
+.trusted-by-2 .frame-75 {
+    height: 38.47px;
+    position: relative;
+    width: 280.1px;
+}
+
+.trusted-by-2 .text-wrapper-94 {
+    color: #e0e7ef;
+    font-family: "Urbanist", Helvetica;
+    font-size: 17.1px;
+    font-weight: 600;
+    left: 165px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 3px;
+    white-space: nowrap;
+}

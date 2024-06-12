@@ -1,3 +1,7 @@
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+
+
 // servicesConfig.js
 export const services = [
     {
@@ -160,6 +164,63 @@ export const getServiceStyles = (service, selectedService) => {
             return {};
     }
 };
+
+
+// New function to render individual carousel items
+export const renderCarouselContent = (content, rectangleColor) => (
+    content.map((item, index) => (
+        <div className="frame-47" key={index}>
+            <div className="frame-48">
+                <div className="rectangle-5" style={{ backgroundColor: rectangleColor }} />
+                <div className="text-wrapper-55">{item.title}</div>
+                <p className="text-wrapper-56">{item.description}</p>
+            </div>
+            <div className="frame-49">
+                <div className="rectangle-6" style={{ backgroundColor: rectangleColor }} />
+                <div className="text-wrapper-57">{item.subtitle}</div>
+                <p className="text-wrapper-58">{item.subdescription}</p>
+            </div>
+        </div>
+    ))
+);
+
+export const renderCarouselContentTab = (content, rectangleColor) => (
+    content.map((item, index) => (
+        <div className="frame-47" key={index}>
+            <div className="frame-13">
+                <div className="rectangle" style={{ backgroundColor: rectangleColor }} />
+                <div className="text-wrapper-18">{item.title}</div>
+                <p className="text-wrapper-19">{item.description}</p>
+            </div>
+            <div className="frame-13">
+                <div className="rectangle" style={{ backgroundColor: rectangleColor }} />
+                <div className="text-wrapper-18">{item.title}</div>
+                <p className="text-wrapper-19">{item.description}</p>
+            </div>
+        </div>
+    ))
+);
+
+export const renderCarouselContentMob = (content, rectangleColor) => (
+    content.map((item, index) => (
+        <div className="frame-66" key={index}>
+            <div className="frame-67">
+                <div className="rectangle-9" style={{ backgroundColor: rectangleColor }} />
+                <div className="text-wrapper-84">{item.title}</div>
+                <p className="text-wrapper-85">{item.description}</p>
+            </div>
+            <div className="frame-67">
+                <div className="rectangle-9" style={{ backgroundColor: rectangleColor }} />
+                <div className="text-wrapper-84">{item.subtitle}</div>
+                <p className="text-wrapper-85">{item.subdescription}</p>
+            </div>
+        </div>
+    ))
+);
+
+
+
+
 
 
 export const getServiceStylesTab = (service, selectedService) => {

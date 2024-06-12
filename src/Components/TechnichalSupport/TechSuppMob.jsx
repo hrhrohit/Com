@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { services, serviceDetails, carouselContent, getServiceStylesMob } from './serviceConfig';
+import { services, serviceDetails, carouselContent, getServiceStylesMob, renderCarouselContentMob} from './serviceConfig';
 import "./Styles/mob.css";
 import "./Styles/desk.css";
 import "./Styles/tab.css";
@@ -9,22 +9,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 const TechSuppMob = () => {
     const [selectedService, setSelectedService] = useState("Technical Support");
 
-    const renderCarouselContent = (content, rectangleColor) => (
-        content.map((item, index) => (
-            <div className="frame-66" key={index}>
-                <div className="frame-67">
-                    <div className="rectangle-9" style={{ backgroundColor: rectangleColor }} />
-                    <div className="text-wrapper-84">{item.title}</div>
-                    <p className="text-wrapper-85">{item.description}</p>
-                </div>
-                <div className="frame-67">
-                    <div className="rectangle-9" style={{ backgroundColor: rectangleColor }} />
-                    <div className="text-wrapper-84">{item.subtitle}</div>
-                    <p className="text-wrapper-85">{item.subdescription}</p>
-                </div>
-            </div>
-        ))
-    );
+
 
     const renderCarousel = (service, rectangleColor, indicatorColor) => (
         <Carousel
@@ -52,7 +37,7 @@ const TechSuppMob = () => {
                 );
             }}
         >
-            {renderCarouselContent(carouselContent[service], rectangleColor)}
+            {renderCarouselContentMob(carouselContent[service], rectangleColor)}
         </Carousel>
     );
 
@@ -64,8 +49,7 @@ const TechSuppMob = () => {
                 <div className="frame-65">
                     {services.map(service => (
                         <div className="technical" style={getServiceStylesMob(service.name, selectedService).technical} key={service.name} onClick={() => setSelectedService(service.name)}>
-                            {service.icon(getServiceStylesMob(service.name, selectedService).iconColor)}
-                            <div className="text-wrapper-80" style={getServiceStylesMob(service.name, selectedService).textWrapper80}>{service.name}</div>
+                            <div className="text-wrapper-80 whitespace-normal" style={getServiceStylesMob(service.name, selectedService).textWrapper80}>{service.name}</div>
                         </div>
                     ))}
                 </div>

@@ -1,0 +1,178 @@
+.why-choose-us {
+    align-items: flex-start;
+    box-shadow: 0px 2.84px 5.12px #c1d7ff40;
+    display: inline-flex;
+    gap: 19.2px;
+    left: 75px;
+    position: absolute;
+    top: 1868px;
+}
+
+.why-choose-us .why-choose-us-all {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 19.2px;
+    position: relative;
+}
+
+.why-choose-us .why-choose-us-why {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 14.22px;
+    position: relative;
+}
+
+.why-choose-us .text-wrapper-29 {
+    color: #000000;
+    font-family: "Urbanist", Helvetica;
+    font-size: 40.5px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -0.71px;
+    position: relative;
+    width: fit-content;
+}
+
+.why-choose-us .body-text {
+    color: #4c4c4c;
+    font-family: "Urbanist", Helvetica;
+    font-size: 21.3px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: 284.44px;
+}
+
+.why-choose-us .count {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 6.4px;
+    position: relative;
+}
+
+.why-choose-us .frame-18 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 98.13px;
+    position: relative;
+}
+
+.why-choose-us .text-wrapper-30 {
+    color: var(--primary);
+    font-family: "Urbanist", Helvetica;
+    font-size: 54px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 64.9px;
+    margin-top: -0.71px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.why-choose-us .line {
+    height: 67px;
+    left: 129px;
+    position: absolute;
+    top: 4px;
+    width: 1px;
+}
+
+.why-choose-us .frame-19 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 51.2px;
+    padding: 0px 0px 0px 22.04px;
+    position: relative;
+}
+
+.why-choose-us .text-wrapper-31 {
+    color: #000000;
+    font-family: "Urbanist", Helvetica;
+    font-size: 17.1px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 20.5px;
+    margin-top: -0.71px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.why-choose-us .element-reasons {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 8.53px;
+    padding: 39.82px 0px 0px;
+    position: relative;
+}
+
+.why-choose-us .div-2 {
+    align-items: center;
+    background-color: #c1d6ff;
+    border-radius: 17.07px;
+    box-shadow: 7.11px 14.22px 46.93px #0000000f;
+    display: flex;
+    flex-direction: column;
+    gap: 17.07px;
+    height: 338.49px;
+    justify-content: center;
+    padding: 17.07px;
+    position: relative;
+    width: 184.18px;
+}
+
+.why-choose-us .img-3 {
+    height: 51.2px;
+    position: relative;
+    width: 51.2px;
+}
+
+.why-choose-us .reliable-and-timely {
+    align-items: center;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 10.67px;
+    justify-content: center;
+    margin-left: -19.2px;
+    margin-right: -19.2px;
+    position: relative;
+    width: 188.44px;
+}
+
+.why-choose-us .text-wrapper-32 {
+    align-self: stretch;
+    color: #000000;
+    font-family: "Urbanist", Helvetica;
+    font-size: 17.1px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -0.71px;
+    position: relative;
+    text-align: center;
+}
+
+.why-choose-us .text-wrapper-33 {
+    align-self: stretch;
+    color: #4c4c4c;
+    font-family: "Urbanist", Helvetica;
+    font-size: 12.8px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 15.4px;
+    position: relative;
+    text-align: center;
+}

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { services, serviceDetails, carouselContent, getServiceStylesTab } from './serviceConfig';
+import { services, serviceDetails, carouselContent, getServiceStylesTab, renderCarouselContentTab } from './serviceConfig';
 import "./Styles/mob.css";
 import "./Styles/desk.css";
 import "./Styles/tab.css";
@@ -9,22 +9,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 const TechSuppTab = () => {
     const [selectedService, setSelectedService] = useState("Technical Support");
 
-    const renderCarouselContent = (content, rectangleColor) => (
-        content.map((item, index) => (
-            <div className="frame-47" key={index}>
-                <div className="frame-13">
-                    <div className="rectangle" style={{ backgroundColor: rectangleColor }} />
-                    <div className="text-wrapper-18">{item.title}</div>
-                    <p className="text-wrapper-19">{item.description}</p>
-                </div>
-                <div className="frame-13">
-                    <div className="rectangle" style={{ backgroundColor: rectangleColor }} />
-                    <div className="text-wrapper-18">{item.title}</div>
-                    <p className="text-wrapper-19">{item.description}</p>
-                </div>
-            </div>
-        ))
-    );
+    
 
     const renderCarousel = (service, rectangleColor, indicatorColor) => (
         <Carousel
@@ -51,7 +36,7 @@ const TechSuppTab = () => {
                 );
             }}
         >
-            {renderCarouselContent(carouselContent[service], rectangleColor)}
+            {renderCarouselContentTab(carouselContent[service], rectangleColor)}
         </Carousel>
     );
 

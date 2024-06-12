@@ -1,0 +1,184 @@
+.why-choose-us-2 {
+    align-items: flex-start;
+    box-shadow: 0px 4px 7.2px #c1d7ff40;
+    display: inline-flex;
+    gap: 27px;
+    left: 106px;
+    position: absolute;
+    top: 2622px;
+}
+
+.why-choose-us-2 .why-choose-us-all-2 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 27px;
+    position: relative;
+}
+
+.why-choose-us-2 .why-choose-us-why-2 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+}
+
+.why-choose-us-2 .text-wrapper-69 {
+    color: #000000;
+    font-family: var(--h2-font-family);
+    font-size: var(--h2-font-size);
+    font-style: var(--h2-font-style);
+    font-weight: var(--h2-font-weight);
+    letter-spacing: var(--h2-letter-spacing);
+    line-height: var(--h2-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.why-choose-us-2 .body-text-2 {
+    color: #4c4c4c;
+    font-family: var(--h4-font-family);
+    font-size: var(--h4-font-size);
+    font-style: var(--h4-font-style);
+    font-weight: var(--h4-font-weight);
+    letter-spacing: var(--h4-letter-spacing);
+    line-height: var(--h4-line-height);
+    position: relative;
+    width: 400px;
+}
+
+.why-choose-us-2 .count-2 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 9px;
+    position: relative;
+}
+
+.why-choose-us-2 .frame-56 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 138px;
+    position: relative;
+}
+
+.why-choose-us-2 .text-wrapper-70 {
+    color: var(--primary);
+    font-family: "Urbanist", Helvetica;
+    font-size: 76px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 91.2px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.why-choose-us-2 .line-10 {
+    height: 94px;
+    left: 182px;
+    position: absolute;
+    top: 6px;
+    width: 2px;
+}
+
+.why-choose-us-2 .frame-57 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 72px;
+    padding: 0px 0px 0px 31px;
+    position: relative;
+}
+
+.why-choose-us-2 .text-wrapper-71 {
+    color: #000000;
+    font-family: var(--TS-l-font-family);
+    font-size: var(--TS-l-font-size);
+    font-style: var(--TS-l-font-style);
+    font-weight: var(--TS-l-font-weight);
+    letter-spacing: var(--TS-l-letter-spacing);
+    line-height: var(--TS-l-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.why-choose-us-2 .element-reasons-2 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 12px;
+    padding: 56px 0px 0px;
+    position: relative;
+}
+
+.why-choose-us-2 .div-5 {
+    align-items: center;
+    background-color: #c1d6ff;
+    border-radius: 24px;
+    box-shadow: 10px 20px 66px #0000000f;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    height: 476px;
+    justify-content: center;
+    padding: 24px;
+    position: relative;
+    width: 259px;
+}
+
+.why-choose-us-2 .img-4 {
+    height: 72px;
+    position: relative;
+    width: 72px;
+}
+
+.why-choose-us-2 .reliable-and-timely-2 {
+    align-items: center;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    margin-left: -27px;
+    margin-right: -27px;
+    position: relative;
+    width: 265px;
+}
+
+.why-choose-us-2 .text-wrapper-72 {
+    align-self: stretch;
+    color: #000000;
+    font-family: var(--h5-font-family);
+    font-size: var(--h5-font-size);
+    font-style: var(--h5-font-style);
+    font-weight: var(--h5-font-weight);
+    letter-spacing: var(--h5-letter-spacing);
+    line-height: var(--h5-line-height);
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+}
+
+.why-choose-us-2 .text-wrapper-73 {
+    align-self: stretch;
+    color: #4c4c4c;
+    font-family: var(--TS-r-font-family);
+    font-size: var(--TS-r-font-size);
+    font-style: var(--TS-r-font-style);
+    font-weight: var(--TS-r-font-weight);
+    letter-spacing: var(--TS-r-letter-spacing);
+    line-height: var(--TS-r-line-height);
+    position: relative;
+    text-align: center;
+}

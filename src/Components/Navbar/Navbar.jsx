@@ -208,50 +208,52 @@ const Navbar = () => {
                                 : undefined,
                 }}
             >
-                <div
-                    className="text-wrapper-6"
-                    style={{
-                        fontFamily:
-                            screenWidth >= 1024 && screenWidth < 1440
-                                ? "'Urbanist', Helvetica"
-                                : screenWidth >= 1440
-                                    ? "var(--h5-font-family)"
-                                    : undefined,
-                        fontSize:
-                            screenWidth >= 1024 && screenWidth < 1440
-                                ? "17.1px"
-                                : screenWidth >= 1440
-                                    ? "var(--h5-font-size)"
-                                    : undefined,
-                        fontStyle: screenWidth >= 1440 ? "var(--h5-font-style)" : undefined,
-                        fontWeight:
-                            screenWidth >= 1024 && screenWidth < 1440
-                                ? "600"
-                                : screenWidth >= 1440
-                                    ? "var(--h5-font-weight)"
-                                    : undefined,
-                        letterSpacing:
-                            screenWidth >= 1024 && screenWidth < 1440
-                                ? "0"
-                                : screenWidth >= 1440
-                                    ? "var(--h5-letter-spacing)"
-                                    : undefined,
-                        lineHeight:
-                            screenWidth >= 1024 && screenWidth < 1440
-                                ? "normal"
-                                : screenWidth >= 1440
-                                    ? "var(--h5-line-height)"
-                                    : undefined,
-                        marginTop:
-                            screenWidth >= 1024 && screenWidth < 1440
-                                ? "-0.71px"
-                                : screenWidth >= 1440
-                                    ? "-1.00px"
-                                    : undefined,
-                    }}
-                >
-                    <a href="#contact-us-section">Contact Us</a>
-                </div>
+                <a href="#contact-us-section">
+                    <div
+                        className="text-wrapper-6"
+                        style={{
+                            fontFamily:
+                                screenWidth >= 1024 && screenWidth < 1440
+                                    ? "'Urbanist', Helvetica"
+                                    : screenWidth >= 1440
+                                        ? "var(--h5-font-family)"
+                                        : undefined,
+                            fontSize:
+                                screenWidth >= 1024 && screenWidth < 1440
+                                    ? "17.1px"
+                                    : screenWidth >= 1440
+                                        ? "var(--h5-font-size)"
+                                        : undefined,
+                            fontStyle: screenWidth >= 1440 ? "var(--h5-font-style)" : undefined,
+                            fontWeight:
+                                screenWidth >= 1024 && screenWidth < 1440
+                                    ? "600"
+                                    : screenWidth >= 1440
+                                        ? "var(--h5-font-weight)"
+                                        : undefined,
+                            letterSpacing:
+                                screenWidth >= 1024 && screenWidth < 1440
+                                    ? "0"
+                                    : screenWidth >= 1440
+                                        ? "var(--h5-letter-spacing)"
+                                        : undefined,
+                            lineHeight:
+                                screenWidth >= 1024 && screenWidth < 1440
+                                    ? "normal"
+                                    : screenWidth >= 1440
+                                        ? "var(--h5-line-height)"
+                                        : undefined,
+                            marginTop:
+                                screenWidth >= 1024 && screenWidth < 1440
+                                    ? "-0.71px"
+                                    : screenWidth >= 1440
+                                        ? "-1.00px"
+                                        : undefined,
+                        }}
+                    >
+                        Contact Us
+                    </div>
+                </a>
             </div>
         </header>
     );

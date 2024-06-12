@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { services, serviceDetails, carouselContent, getServiceStyles } from './serviceConfig';
+import { services, serviceDetails, carouselContent, getServiceStyles, renderCarouselContent  } from './serviceConfig';
 import "./Styles/mob.css";
 import "./Styles/desk.css";
 import "./Styles/tab.css";
@@ -8,23 +8,6 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 const TechSuppDesk = () => {
     const [selectedService, setSelectedService] = useState("Technical Support");
-
-    const renderCarouselContent = (content, rectangleColor) => (
-        content.map((item, index) => (
-            <div className="frame-47" key={index}>
-                <div className="frame-48">
-                    <div className="rectangle-5" style={{ backgroundColor: rectangleColor }} />
-                    <div className="text-wrapper-55">{item.title}</div>
-                    <p className="text-wrapper-56">{item.description}</p>
-                </div>
-                <div className="frame-49">
-                    <div className="rectangle-6" style={{ backgroundColor: rectangleColor }} />
-                    <div className="text-wrapper-57">{item.subtitle}</div>
-                    <p className="text-wrapper-58">{item.subdescription}</p>
-                </div>
-            </div>
-        ))
-    );
 
     const renderCarousel = (service, rectangleColor, indicatorColor) => (
         <Carousel

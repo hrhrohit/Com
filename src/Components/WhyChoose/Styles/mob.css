@@ -1,0 +1,288 @@
+ .why-choose-US {
+     align-items: center;
+     display: inline-flex;
+     flex-direction: column;
+     gap: 27px;
+     left: 53px;
+     position: absolute;
+     top: 1804px;
+ }
+
+ .why-choose-US .text-wrapper-88 {
+     color: #000000;
+     font-family: "Urbanist", Helvetica;
+     font-size: 20px;
+     font-weight: 600;
+     letter-spacing: 0;
+     line-height: normal;
+     margin-top: -0.71px;
+     position: relative;
+     text-align: center;
+     white-space: nowrap;
+     width: fit-content;
+ }
+
+ .why-choose-US .body-text-3 {
+     color: #4c4c4c;
+     font-family: "Urbanist", Helvetica;
+     font-size: 16px;
+     font-weight: 600;
+     letter-spacing: 0;
+     line-height: normal;
+     position: relative;
+     text-align: center;
+     width: 284.44px;
+ }
+
+ .why-choose-US .card {
+     align-items: flex-start;
+     display: flex;
+     flex: 0 0 auto;
+     flex-direction: column;
+     gap: 14px;
+     position: relative;
+     width: 298px;
+ }
+
+ .why-choose-US .reliable-and-timely-3 {
+     align-items: center;
+     background-color: #c1d6ff;
+     border-radius: 24px;
+     box-shadow: 10px 20px 66px #0000000f;
+     display: flex;
+     flex: 0 0 auto;
+     flex-direction: column;
+     gap: 24px;
+     justify-content: center;
+     margin-left: -8px;
+     margin-right: -8px;
+     margin-top: -8px;
+     padding: 24px;
+     position: relative;
+     width: 314px;
+ }
+
+ .why-choose-US .img-5 {
+     height: 45px;
+     position: relative;
+     width: 45px;
+ }
+
+ .why-choose-US .text-wrapper-89 {
+     color: #000000;
+     font-family: "Urbanist", Helvetica;
+     font-size: 18px;
+     font-weight: 600;
+     letter-spacing: 0;
+     line-height: normal;
+     margin-top: -1px;
+     position: relative;
+     text-align: center;
+     width: fit-content;
+ }
+
+ .why-choose-US .text-wrapper-90 {
+     align-self: stretch;
+     color: #4c4c4c;
+     font-family: "Urbanist", Helvetica;
+     font-size: 14px;
+     font-weight: 500;
+     letter-spacing: 0;
+     line-height: 16.8px;
+     position: relative;
+     text-align: center;
+ }
+
+ .why-choose-US .div-8 {
+     align-items: center;
+     background-color: #c1d6ff;
+     border-radius: 24px;
+     box-shadow: 10px 20px 66px #0000000f;
+     display: flex;
+     flex: 0 0 auto;
+     flex-direction: column;
+     gap: 24px;
+     justify-content: center;
+     padding: 24px;
+     position: relative;
+     width: 298px;
+ }
+
+ .why-choose-US .why-choose-us {
+     align-items: flex-start;
+     box-shadow: 0px 2.84px 5.12px #c1d7ff40;
+     display: inline-flex;
+     gap: 19.2px;
+     left: 75px;
+     position: absolute;
+     top: 1868px;
+ }
+
+ .why-choose-US .why-choose-us-all {
+     align-items: flex-start;
+     display: inline-flex;
+     flex: 0 0 auto;
+     flex-direction: column;
+     gap: 19.2px;
+     position: relative;
+ }
+
+ .why-choose-US .why-choose-us-why {
+     align-items: flex-start;
+     display: inline-flex;
+     flex: 0 0 auto;
+     flex-direction: column;
+     gap: 14.22px;
+     position: relative;
+ }
+
+ .why-choose-US .text-wrapper-29 {
+     color: #000000;
+     font-family: "Urbanist", Helvetica;
+     font-size: 40.5px;
+     font-weight: 600;
+     letter-spacing: 0;
+     line-height: normal;
+     margin-top: -0.71px;
+     position: relative;
+     width: fit-content;
+ }
+
+ .why-choose-US .body-text {
+     color: #4c4c4c;
+     font-family: "Urbanist", Helvetica;
+     font-size: 21.3px;
+     font-weight: 600;
+     letter-spacing: 0;
+     line-height: normal;
+     position: relative;
+     width: 284.44px;
+ }
+
+ .why-choose-US .count {
+     align-items: center;
+     display: inline-flex;
+     flex: 0 0 auto;
+     flex-direction: column;
+     gap: 6.4px;
+     position: relative;
+ }
+
+ .why-choose-US .frame-18 {
+     align-items: flex-start;
+     display: inline-flex;
+     flex: 0 0 auto;
+     gap: 98.13px;
+     position: relative;
+ }
+
+ .why-choose-US .text-wrapper-30 {
+     color: var(--primary);
+     font-family: "Urbanist", Helvetica;
+     font-size: 54px;
+     font-weight: 400;
+     letter-spacing: 0;
+     line-height: 64.9px;
+     margin-top: -0.71px;
+     position: relative;
+     white-space: nowrap;
+     width: fit-content;
+ }
+
+ .why-choose-US .line {
+     height: 67px;
+     left: 129px;
+     position: absolute;
+     top: 4px;
+     width: 1px;
+ }
+
+ .why-choose-US .frame-19 {
+     align-items: flex-start;
+     display: inline-flex;
+     flex: 0 0 auto;
+     gap: 51.2px;
+     padding: 0px 0px 0px 22.04px;
+     position: relative;
+ }
+
+ .why-choose-US .text-wrapper-31 {
+     color: #000000;
+     font-family: "Urbanist", Helvetica;
+     font-size: 17.1px;
+     font-weight: 500;
+     letter-spacing: 0;
+     line-height: 20.5px;
+     margin-top: -0.71px;
+     position: relative;
+     white-space: nowrap;
+     width: fit-content;
+ }
+
+ .why-choose-US .element-reasons {
+     align-items: flex-start;
+     display: inline-flex;
+     flex: 0 0 auto;
+     gap: 8.53px;
+     padding: 39.82px 0px 0px;
+     position: relative;
+ }
+
+ .why-choose-US .div-2 {
+     align-items: center;
+     background-color: #c1d6ff;
+     border-radius: 17.07px;
+     box-shadow: 7.11px 14.22px 46.93px #0000000f;
+     display: flex;
+     flex-direction: column;
+     gap: 17.07px;
+     height: 338.49px;
+     justify-content: center;
+     padding: 17.07px;
+     position: relative;
+     width: 184.18px;
+ }
+
+ .why-choose-US .img-3 {
+     height: 51.2px;
+     position: relative;
+     width: 51.2px;
+ }
+
+ .why-choose-US .reliable-and-timely {
+     align-items: center;
+     display: flex;
+     flex: 0 0 auto;
+     flex-direction: column;
+     gap: 10.67px;
+     justify-content: center;
+     margin-left: -19.2px;
+     margin-right: -19.2px;
+     position: relative;
+     width: 188.44px;
+ }
+
+ .why-choose-US .text-wrapper-32 {
+     align-self: stretch;
+     color: #000000;
+     font-family: "Urbanist", Helvetica;
+     font-size: 17.1px;
+     font-weight: 600;
+     letter-spacing: 0;
+     line-height: normal;
+     margin-top: -0.71px;
+     position: relative;
+     text-align: center;
+ }
+
+ .why-choose-US .text-wrapper-33 {
+     align-self: stretch;
+     color: #4c4c4c;
+     font-family: "Urbanist", Helvetica;
+     font-size: 12.8px;
+     font-weight: 500;
+     letter-spacing: 0;
+     line-height: 15.4px;
+     position: relative;
+     text-align: center;
+ }

@@ -1,20 +1,61 @@
-@keyframes rotate-svg {
-    0% {
-        transform: rotate(0deg);
-    }
-    50% {
-        transform: rotate(180deg);
-    }
-    /* 100% {
-        transform: rotate(360deg);
-    } */
+.menu-icon-container {
+    cursor: pointer;
+    position: relative;
+    width: 25px;
+    height: 25px;
 }
 
-.animate-svg {
-    animation: rotate-svg 0.5s ease-in-out;
+.menu-icon {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.3s ease;
 }
 
-/* Dropdown Menu Styles */
+.menu-icon.open {
+    transform: rotate(0deg); /* This makes sure the lines form the X without the whole container rotating */
+}
+
+.menu-icon .line {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #121212;
+    transition: all 0.3s ease;
+}
+
+.menu-icon .line1 {
+    transform-origin: top left;
+    transform: rotate(0) translateY(0);
+}
+
+.menu-icon .line2 {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.menu-icon .line3 {
+    transform-origin: bottom left;
+    transform: rotate(0) translateY(0);
+}
+
+.menu-icon.open .line1 {
+    transform: rotate(45deg) translate(1px, 1px);
+}
+
+.menu-icon.open .line2 {
+    opacity: 0;
+    transform: translateX(-20px); /* Move it out of the view */
+}
+
+.menu-icon.open .line3 {
+    transform: rotate(-45deg) translate(3px, -3px);
+}
+
 .dropdown-menu {
     display: none;
     position: absolute;

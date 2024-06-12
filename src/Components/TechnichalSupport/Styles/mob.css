@@ -58,7 +58,7 @@
   flex: 1;
   flex-grow: 1;
   gap: 10px;
-  height: 26px;
+  height: 33px;
   justify-content: center;
   overflow: hidden;
   padding: 12px 18px;
@@ -76,7 +76,6 @@
   margin-top: -7px;
   position: relative;
   text-align: center;
-  white-space: nowrap;
   width: fit-content;
 }
 
