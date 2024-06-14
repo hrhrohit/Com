@@ -3,13 +3,14 @@
 @tailwind utilities;
 
 .body{
-  overflow-y: hidden;
-  scroll-behavior: smooth;
+  overflow: auto;
 }
 
 html {
   scroll-behavior: smooth;
 }
+
+
 
 
 :root {

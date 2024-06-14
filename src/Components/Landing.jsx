@@ -108,7 +108,7 @@ const Landing = () => {
             }}
           >
 
-            <Navbar></Navbar>
+            {/* <Navbar></Navbar> */}
             <Header />
             <TrustedBy />
           </div>

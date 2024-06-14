@@ -1,0 +1,485 @@
+.Aservices-desktop {
+  background-color: #ffffff;
+  position: absolute;
+}
+
+.Aframe {
+  background-color: #f7f7f5;
+  position: absolute;
+  top: 0;
+}
+
+.Aoverview {
+  align-items: center;
+  display: inline-flex;
+  position: absolute;
+}
+
+.Adiv {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+}
+
+.Aframe-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.Atext-wrapper {
+  color: #000000;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.Aline {
+  height: 1px;
+  position: absolute;
+}
+
+.Aframe-3 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+}
+
+.Avoip-lifecycle {
+  color: var(--variable-collection-text-secondary);
+  position: relative;
+}
+
+.Aongoing-support-and {
+  color: var(--variable-collection-text-secondary);
+  position: relative;
+}
+
+.Apexels-pavel {
+  object-fit: cover;
+  position: absolute;
+}
+
+.Aframe-4 {
+  align-items: center;
+  display: inline-flex;
+  position: absolute;
+}
+
+.Atext-wrapper-2 {
+  color: #000000;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.Avector {
+  position: relative;
+}
+
+.Atext-wrapper-3 {
+  color: #000000;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.Aframe-5 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  position: absolute;
+}
+
+.Aframe-6 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.Atext-wrapper-4 {
+  color: #000000;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.Aimg {
+  height: 1px;
+  position: absolute;
+}
+
+.Aframe-7 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.Aframe-wrapper {
+  background-color: #ffffff;
+  position: relative;
+}
+
+.Aframe-8 {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.Aframe-9 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+}
+
+.Agroup {
+  position: relative;
+}
+
+.Atext-wrapper-5 {
+  color: #000000;
+  position: relative;
+}
+
+.Ap {
+  color: var(--variable-collection-text-secondary);
+  position: relative;
+  text-align: center;
+}
+
+.Adiv-wrapper {
+  background-color: #ffffff;
+  position: relative;
+}
+
+.Aframe-10 {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.Aframe-11 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+}
+
+.Agroup-2 {
+  position: relative;
+}
+
+.Atext-wrapper-6 {
+  color: #000000;
+  position: relative;
+}
+
+.Atext-wrapper-7 {
+  color: var(--variable-collection-text-secondary);
+  position: relative;
+  text-align: center;
+}
+
+.Aframe-12 {
+  background-color: #ffffff;
+  position: relative;
+}
+
+.Aframe-13 {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.Aframe-14 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+}
+
+.Agroup-3 {
+  position: relative;
+}
+
+.Aline-2 {
+  height: 1px;
+  position: absolute;
+}
+
+.Aline-3 {
+  height: 1px;
+  left: 0;
+  position: absolute;
+}
+
+.Aline-4 {
+  height: 1px;
+  position: absolute;
+}
+
+.Aline-5 {
+  height: 1px;
+  position: absolute;
+}
+
+.Aellipse {
+  border-color: #ff4d4d;
+  position: absolute;
+}
+
+.Aellipse-2 {
+  border-color: #ff4d4d;
+  position: absolute;
+  top: 0;
+}
+
+.Atext-wrapper-8 {
+  color: #000000;
+  position: relative;
+}
+
+.Atext-wrapper-9 {
+  color: var(--variable-collection-text-secondary);
+  position: relative;
+  text-align: center;
+}
+
+.Aframe-15 {
+  background-color: #ffffff;
+  position: relative;
+}
+
+.Aframe-16 {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.Aframe-17 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+}
+
+.Amask-group {
+  position: relative;
+}
+
+.Atext-wrapper-10 {
+  color: #000000;
+  position: relative;
+}
+
+.Atext-wrapper-11 {
+  color: var(--variable-collection-text-secondary);
+  position: relative;
+  text-align: center;
+}
+
+.Anext {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  position: absolute;
+}
+
+.Aframe-18 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+}
+
+.Aframe-19 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.Atext-wrapper-12 {
+  color: #000000;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.Aline-6 {
+  height: 1px;
+  position: absolute;
+}
+
+.Atext-wrapper-13 {
+  color: #000000;
+  position: relative;
+}
+
+.Aframe-20 {
+  align-items: center;
+  background-color: #ff4d4d;
+  display: flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.Atext-wrapper-14 {
+  color: #ffffff;
+  position: relative;
+  width: fit-content;
+}
+
+.Avector-2 {
+  position: absolute;
+}
+
+.Aframe-21 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  position: absolute;
+}
+
+.Aframe-22 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.Atext-wrapper-15 {
+  color: #000000;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.Aline-7 {
+  height: 1px;
+  position: absolute;
+}
+
+.Aframe-23 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.Aoverlap-group-wrapper {
+  background-color: #ffffff;
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.Aoverlap-group {
+  background-color: #00000026;
+  position: relative;
+}
+
+.Atext-wrapper-16 {
+  color: #ffffff;
+  position: absolute;
+}
+
+.Aoverlap-wrapper {
+  background-color: #ffffff;
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.Aoverlap {
+  background-color: #00000026;
+  position: relative;
+}
+
+.Atext-wrapper-17 {
+  color: #ffffff;
+  position: absolute;
+}
+
+.Aframe-24 {
+  background-color: #f7f7f5;
+  position: fixed;
+  top: 122px;
+}
+
+.Aoverlap-2 {
+  position: absolute;
+}
+
+.Aline-8 {
+  position: absolute;
+  top: 0;
+  width: 1px;
+}
+
+.Arectangle {
+  background-color: #ff4d4d;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.Aframe-25 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+}
+
+.Atext-wrapper-18 {
+  color: #000000;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.Atext-wrapper-19 {
+  color: var(--variable-collection-text-secondary);
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.Atext-wrapper-20 {
+  color: var(--variable-collection-text-secondary);
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.Atext-wrapper-21 {
+  color: var(--variable-collection-text-secondary);
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.Arectangle {
+  background-color: #ff4d4d;
+  left: 0;
+  position: absolute;
+  transition: top 0.5s ease;
+  /* Smooth transition for the top property */
+}

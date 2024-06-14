@@ -7,7 +7,7 @@ const HeaderMob = () => {
         <>
             <div className="overlap-group">
                 <img className='absolute' src="img/pexels-apasaric-325185-1.png" alt="" />
-                <NavbarMob />
+                {/* <NavbarMob /> */}
                 <p className="top-tier-netsapiens">Top-Tier NetSapiens and VoIP&nbsp;&nbsp;Support Services</p>
                 <div className="subtext">
                     <p className="text-wrapper">

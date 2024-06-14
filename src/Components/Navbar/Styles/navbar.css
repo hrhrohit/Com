@@ -1,63 +1,88 @@
-.iphone-pro-max .frame {
+ .frame {
+     align-items: center;
+     display: flex;
+     justify-content: center;
+     position: relative;
+     cursor: pointer;
+ }
+
+ .img {
+     flex: 1;
+     flex-grow: 1;
+     position: relative;
+ }
+
+ .frame-2 {
+     align-items: flex-start;
+     display: flex;
+     flex: 1;
+     flex-grow: 1;
+     position: relative;
+ }
+
+ .text-wrapper-3,
+ .text-wrapper-4,
+ .text-wrapper-5 {
+     color: #000000;
+     flex: 1;
+     position: relative;
+ }
+
+ .text-wrapper-3:hover,
+ .text-wrapper-4:hover,
+ .text-wrapper-5:hover {
+     color: #ff4d4d;
+     cursor: pointer;
+ }
+
+ .div-wrapper {
+     align-items: center;
+     background-color: #ff4d4d;
+     display: flex;
+     /* flex: 1; */
+     /* flex-grow: 1; */
+     justify-content: center;
+     position: relative;
+     border: 2px solid transparent;
+     cursor: pointer;
+ }
+
+ .div-wrapper:hover {
+     background-color: #ffffff;
+     border: 2px solid #ff4d4d;
+ }
+
+ .text-wrapper-6 {
+     color: #ffffff;
+     flex: 1;
+     position: relative;
+ }
+
+ .div-wrapper:hover .text-wrapper-6 {
+     color: #ff4d4d;
+ }
+
+ .div {
+     position: relative;
+     width: 100%;
+     display: flex;
+ }
+
+ .header-2 {
     align-items: center;
+    background-color: transparent;
     display: flex;
     justify-content: center;
-    position: relative;
-    cursor: pointer;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    transition: background-color 0.3s ease;
 }
 
-.iphone-pro-max .img {
-    flex: 1;
-    flex-grow: 1;
-    position: relative;
-}
-
-.iphone-pro-max .frame-2 {
-    align-items: flex-start;
-    display: flex;
-    flex: 1;
-    flex-grow: 1;
-    position: relative;
-}
-
-.iphone-pro-max .text-wrapper-3,
-.iphone-pro-max .text-wrapper-4,
-.iphone-pro-max .text-wrapper-5 {
-    color: #000000;
-    flex: 1;
-    position: relative;
-}
-
-.iphone-pro-max .text-wrapper-3:hover,
-.iphone-pro-max .text-wrapper-4:hover,
-.iphone-pro-max .text-wrapper-5:hover {
-    color: #ff4d4d;
-    cursor: pointer;
-}
-
-.iphone-pro-max .div-wrapper {
-    align-items: center;
-    background-color: #ff4d4d;
-    display: flex;
-    flex: 1;
-    flex-grow: 1;
-    justify-content: center;
-    position: relative;
-    border: 2px solid transparent;
-    cursor: pointer;
-}
-
-.iphone-pro-max .div-wrapper:hover {
-    background-color: #ffffff;
-    border: 2px solid #ff4d4d;
-}
-
-.iphone-pro-max .text-wrapper-6 {
-    color: #ffffff;
-    flex: 1;
-    position: relative;
-}
-
-.iphone-pro-max .div-wrapper:hover .text-wrapper-6 {
-    color: #ff4d4d;
+.header-2.scrolled {
+    background-color: #F7F7F5;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 1px 4px -2px gray;
 }

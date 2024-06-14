@@ -17,7 +17,7 @@
 }
 
 .menu-icon.open {
-    transform: rotate(0deg); /* This makes sure the lines form the X without the whole container rotating */
+    transform: rotate(0deg);
 }
 
 .menu-icon .line {
@@ -49,7 +49,7 @@
 
 .menu-icon.open .line2 {
     opacity: 0;
-    transform: translateX(-20px); /* Move it out of the view */
+    transform: translateX(-20px);
 }
 
 .menu-icon.open .line3 {
@@ -59,9 +59,9 @@
 .dropdown-menu {
     display: none;
     position: absolute;
-    top: 50px; /* adjust as necessary */
-    left: 0;
-    width: 100%;
+    top: 68px;
+    left: 256px;
+    width: 430px;
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     z-index: 10;
@@ -105,4 +105,28 @@
     background-color: #ffffff;
     color: #ff4d4d;
     border: 2px solid #ff4d4d;
+}
+.back-button {
+    color: #ff4d4d; /* Red color for the text */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Space between icon and text */
+    background-color: #f0f0f0;
+}
+
+.back-button img {
+    fill: currentColor; /* Ensures the icon inherits the text color */
+}
+
+/* Removing hover effects specifically from the back button */
+.back-button:hover {
+    background-color: transparent;
+    color: #ff4d4d; /* Keep the same color on hover */
+}
+
+/* SVG Icon styles */
+.menu-item img {
+    width: 14px;
+    height: auto;
 }

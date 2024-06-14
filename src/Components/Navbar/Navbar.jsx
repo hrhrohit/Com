@@ -1,13 +1,29 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import "../landing.css";
 import { useWindowWidth } from '../../breakpoints';
-import "./Styles/navbar.css"
+import "./Styles/navbar.css";
 
 const Navbar = () => {
+    const [isScrolled, setIsScrolled] = useState(false);
     const screenWidth = useWindowWidth();
+    const location = useLocation();
+
+    useEffect(() => {
+        const handleScroll = () => {
+            setIsScrolled(window.scrollY > 0);
+        };
+
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
     return (
         <header
-            className="header-2"
+            className={`header-2 z-10 ${isScrolled ? 'scrolled' : ''}`}
             style={{
                 gap: screenWidth >= 1024 && screenWidth < 1440 ? "235.38px" : screenWidth >= 1440 ? "331px" : undefined,
                 left: screenWidth >= 1024 && screenWidth < 1440 ? "1px" : screenWidth >= 1440 ? "2px" : undefined,
@@ -18,7 +34,8 @@ const Navbar = () => {
                             ? "35px 53px"
                             : undefined,
                 width:
-                    screenWidth >= 1024 && screenWidth < 1440 ? "1022px" : screenWidth >= 1440 ? "1437px" : undefined,
+                    screenWidth >= 1024 && screenWidth < 1440 ? "100%" : screenWidth >= 1440 ? "100%" : undefined,
+                backgroundColor: location.pathname === '/Com/services' ? '#f7f7f5' : undefined,
             }}
         >
             <div
@@ -35,9 +52,9 @@ const Navbar = () => {
                     alt="Frame"
                     src={
                         screenWidth >= 1024 && screenWidth < 1440
-                            ? "img/frame-1.svg"
+                            ? isScrolled ? "newImg/frame-1-1.svg" : "img/frame-1.svg"
                             : screenWidth >= 1440
-                                ? "img/frame-1-1.svg"
+                                ? isScrolled ? "newImg/frame-1.svg" : "img/frame-1-1.svg"
                                 : undefined
                     }
                 />
@@ -48,9 +65,7 @@ const Navbar = () => {
                             screenWidth >= 1024 && screenWidth < 1440 ? "14.18px" : screenWidth >= 1440 ? "9px" : undefined,
                     }}
                 >
-                    <div
-                        className="text-wrapper-3"
-                        style={{
+                    <Link to="/Com/" className="text-wrapper-3" style={{
                             fontFamily:
                                 screenWidth >= 1024 && screenWidth < 1440
                                     ? "'Urbanist', Helvetica"
@@ -91,10 +106,8 @@ const Navbar = () => {
                         }}
                     >
                         Home
-                    </div>
-                    <div
-                        className="text-wrapper-4"
-                        style={{
+                    </Link>
+                    <Link to="/Com/services" className="text-wrapper-4" style={{
                             fontFamily:
                                 screenWidth >= 1024 && screenWidth < 1440
                                     ? "'Urbanist', Helvetica"
@@ -141,7 +154,7 @@ const Navbar = () => {
                         }}
                     >
                         Services
-                    </div>
+                    </Link>
                     <div
                         className="text-wrapper-5"
                         style={{
