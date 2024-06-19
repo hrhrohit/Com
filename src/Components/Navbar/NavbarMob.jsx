@@ -42,7 +42,7 @@ const NavbarMob = () => {
                     </div>
                 </div>
             </div>
-            <DropdownMenu isOpen={isMenuOpen} activeSubMenu={activeSubMenu} handleSubMenu={handleSubMenu} />
+            <DropdownMenu setIsMenuOpen={setIsMenuOpen} isOpen={isMenuOpen} activeSubMenu={activeSubMenu} handleSubMenu={handleSubMenu} />
         </>
     );
 }

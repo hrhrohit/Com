@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './Styles/styles.css';
 import { useWindowWidth } from '../../breakpoints';
+import { useNavigate } from 'react-router-dom';
+
 
 const services = [
   {
@@ -43,7 +45,8 @@ const contentData = {
     services: [
       {
         title: "VoIP Lifecycle Management Services",
-        description: "Efficiently manage VoIP system's entire lifecycle with our comprehensive services. From setup and optimization to ongoing maintenance, we ensure seamless communication for business."
+        description: "Efficiently manage VoIP system's entire lifecycle with our comprehensive services. From setup and optimization to ongoing maintenance, we ensure seamless communication for business.",
+        link:"/Com/service-details/voip-lifecycle"
       },
       {
         title: "Detailed Provisioning Processes",
@@ -102,7 +105,7 @@ const contentData = {
 
 const Tablet = () => {
   const [activeService, setActiveService] = useState("Technical Support");
-
+  const navigate = useNavigate();
   const activeServiceData = services.find(service => service.name === activeService);
   const screenWidth = useWindowWidth();
 
@@ -147,9 +150,9 @@ const Tablet = () => {
                       <div className="text-wrapper-8">{item.title}</div>
                       <p className="text-wrapper-9">{item.description}</p>
                     </div>
-                    <div className="vector-wrapper">
+                    <button className="vector-wrapper" onClick={() => navigate(item.link)}>
                       <img className="vector-6" src="serviceComponent/vector-190-7.svg" alt="Open" />
-                    </div>
+                    </button>
                   </div>
                 ))}
               </div>

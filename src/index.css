@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.body{
+.body {
   overflow: auto;
 }
 
@@ -10,7 +10,10 @@ html {
   scroll-behavior: smooth;
 }
 
-
+#root {
+  display: flex;
+  justify-content: center;
+}
 
 
 :root {

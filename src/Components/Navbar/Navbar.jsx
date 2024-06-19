@@ -3,6 +3,10 @@ import { Link, useLocation } from 'react-router-dom';
 import "../landing.css";
 import { useWindowWidth } from '../../breakpoints';
 import "./Styles/navbar.css";
+import frame1_1 from "../../../public/newImg/frame-1-1.svg"
+import frame1 from "../../../public/newImg/frame-1.svg"
+import frame1_img from "../../../public/img/frame-1.svg"
+import frame1_1img from "../../../public/img/frame-1-1.svg"
 
 const Navbar = () => {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -52,9 +56,9 @@ const Navbar = () => {
                     alt="Frame"
                     src={
                         screenWidth >= 1024 && screenWidth < 1440
-                            ? isScrolled ? "newImg/frame-1-1.svg" : "img/frame-1.svg"
+                            ? isScrolled ? frame1_1 : frame1_img
                             : screenWidth >= 1440
-                                ? isScrolled ? "newImg/frame-1.svg" : "img/frame-1-1.svg"
+                                ? isScrolled ? frame1 : frame1_1img
                                 : undefined
                     }
                 />
