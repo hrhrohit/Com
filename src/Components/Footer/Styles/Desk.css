@@ -8,7 +8,8 @@
     padding: 29.53px 14.06px;
     position: absolute;
     top: 4379px;
-    width: 1440px;
+    width: 100%;
+    justify-content: center;
 }
 
 .footer-2 .frame-51 {

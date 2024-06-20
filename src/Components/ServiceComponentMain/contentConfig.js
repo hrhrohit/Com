@@ -12,6 +12,7 @@ import vector190 from "../../../public/mainser/vector-190.svg";
 const contentConfig = {
     // technichal support content starts 
     "/Com/service-details/voip-lifecycle": {
+        titleMain: "Technical Support",
         title: "VOIP Lifecycle Management Services",
         line7: line7,
         line7_1: line7_1,
@@ -45,14 +46,15 @@ const contentConfig = {
         overview: {
             imgSrc: pexelsFauxels,
             text1: "VoIP Lifecycle Management Services encompass the complete spectrum of managing your VoIP system from start to finish. We begin with a thorough assessment of your communication needs, followed by detailed provisioning processes to ensure a seamless and precise setup. This includes configuring hardware, software, and network settings to optimize performance. Our services extend to advanced SIP-related troubleshooting, where our team of experts swiftly diagnose and resolve any issues that arise, ensuring your communication remains uninterrupted. We specialize in creating customized dial plans and translation rules tailored to your specific business requirements, enhancing the efficiency and functionality of your VoIP system.",
-            text1_1:"Our services extend to advanced SIP-related troubleshooting, where our team of experts swiftly diagnose and resolve any issues that arise, ensuring your communication remains uninterrupted. We specialize in creating customized dial plans and translation rules tailored to your specific business requirements, enhancing the efficiency and functionality of your VoIP system.",
+            text1_1: "Our services extend to advanced SIP-related troubleshooting, where our team of experts swiftly diagnose and resolve any issues that arise, ensuring your communication remains uninterrupted. We specialize in creating customized dial plans and translation rules tailored to your specific business requirements, enhancing the efficiency and functionality of your VoIP system.",
             text2: "Ongoing support and maintenance are integral to our service, with regular system monitoring, updates, and optimization to keep your VoIP infrastructure running smoothly. We provide training and documentation to empower your team, ensuring they are well-equipped to utilize and manage the system effectively.",
-            text2_2:"Our VoIP Lifecycle Management Services offer a holistic approach to managing your VoIP system, from initial deployment through continuous improvement, guaranteeing reliable and efficient communication for your business."
+            text2_2: "Our VoIP Lifecycle Management Services offer a holistic approach to managing your VoIP system, from initial deployment through continuous improvement, guaranteeing reliable and efficient communication for your business."
         },
         caseStudy: {
             heading: "Case Study",
             imgSrc: pexelsFauxels,
-            title: "Case Study 1"
+            title: "Case Study 1",
+
         },
         nextStep: {
             heading: "Next Step",
@@ -62,6 +64,7 @@ const contentConfig = {
 
     },
     "/Com/service-details/voip-provisioning": {
+        titleMain: "Technical Support",
         title: "Detailed Provisioning servives",
         line7: line7,
         line7_1: line7_1,
@@ -109,6 +112,7 @@ const contentConfig = {
 
     },
     "/Com/service-details/sip-troubleshooting": {
+        titleMain: "Technical Support",
         title: "Advanced SIP-Related Troubleshooting",
         line7: line7,
         line7_1: line7_1,
@@ -156,6 +160,7 @@ const contentConfig = {
 
     },
     "/Com/service-details/custom-dial-plan": {
+        titleMain: "Technical Support",
         title: "Custom Dial Plan and custom dail translation",
         line7: line7,
         line7_1: line7_1,
@@ -207,6 +212,7 @@ const contentConfig = {
 
     // billinf support content starts
     "/Com/service-details/billing-support": {
+        titleMain: "Billing Support",
         title: "Rev.io Billing Platform Expertise",
         line7: line7,
         line7_1: line7_1,
@@ -254,6 +260,7 @@ const contentConfig = {
 
     },
     "/Com/service-details/dedicated-team": {
+        titleMain: "Billing Support",
         title: "Dedicated team",
         line7: line7,
         line7_1: line7_1,
@@ -304,6 +311,7 @@ const contentConfig = {
 
     // managed platform content starts
     "/Com/service-details/sky-switch": {
+        titleMain: "Managed Platform",
         title: "Sky Switch",
         line7: line7,
         line7_1: line7_1,
@@ -318,6 +326,7 @@ const contentConfig = {
                 },
                 {
                     "imgSrc": group1,
+                    "title": "Feature-Rich UCaaS Platform",
                     "title": "Feature-Rich UCaaS Platform",
                     "description": "SkySwitch offers a comprehensive suite of features including voice, video, messaging, and collaboration, empowering businesses to streamline their communication workflows."
                 },
@@ -352,6 +361,7 @@ const contentConfig = {
     },
 
     "/Com/service-details/netsapiens": {
+        titleMain: "Managed Platform",
         title: "Netsapiens",
         line7: line7,
         line7_1: line7_1,
@@ -394,6 +404,7 @@ const contentConfig = {
 
     },
     "/Com/service-details/hodusoft": {
+        titleMain: "Managed Platform",
         title: "Hodusoft",
         line7: line7,
         line7_1: line7_1,
@@ -436,7 +447,7 @@ const contentConfig = {
 
     },
     "/Com/service-details/bicom": {
-        title: "Bicom",
+        titleMain: "Bicom",
         line7: line7,
         line7_1: line7_1,
         line7_2: line7_2,
@@ -481,6 +492,7 @@ const contentConfig = {
 
     // other services start
     "/Com/service-details/other-service-support": {
+        titleMain:"Other Services",
         title: " Dedicated After-Sale Support via Ticketing Systems, Live Chat, and Phone",
         line7: line7,
         line7_1: line7_1,
@@ -528,6 +540,7 @@ const contentConfig = {
 
     },
     "/Com/service-details/efficient-transition": {
+        titleMain:"Other Services",
         title: "Efficient Transition Management from Existing Platforms to SkySwitch",
         line7: line7,
         line7_1: line7_1,
@@ -575,6 +588,7 @@ const contentConfig = {
 
     },
     "/Com/service-details/custom-training": {
+        titleMain:"Other Services",
         title: "Tailored Training Programs for Expertise Development",
         line7: line7,
         line7_1: line7_1,
@@ -622,6 +636,7 @@ const contentConfig = {
 
     },
     "/Com/service-details/community-communication": {
+        titleMain:"Other Services",
         title: "Proficient Communication with Diverse US Communities",
         line7: line7,
         line7_1: line7_1,

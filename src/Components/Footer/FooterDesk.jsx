@@ -1,7 +1,8 @@
-import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './Styles/Desk.css'; // Ensure the path is correct based on your project structure
 
 const FooterDesk = () => {
+    const navigate = useNavigate()
     return (
         <footer className="footer-2">
             <div className="frame-51">
@@ -34,10 +35,10 @@ const FooterDesk = () => {
                         <div className="line-8"></div>
                     </div>
                     <div className="div-4">
-                        <a href="#" className="text-wrapper-62">Technical</a>
-                        <a href="#" className="text-wrapper-63">Managed Platforms</a>
-                        <a href="#" className="text-wrapper-63">Billing Support</a>
-                        <a href="#" className="text-wrapper-63">Other Services</a>
+                        <a onClick={() => navigate("/Com/services/technical-support")} className="text-wrapper-62">Technical</a>
+                        <a onClick={() => navigate("/Com/services/billing-support")} className="text-wrapper-63">Managed Platforms</a>
+                        <a onClick={() => navigate("/Com/services/managed-platform")} className="text-wrapper-63">Billing Support</a>
+                        <a onClick={() => navigate("/Com/services/other-services")} className="text-wrapper-63">Other Services</a>
                     </div>
                 </div>
                 <div className="frame-54">

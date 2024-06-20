@@ -1,10 +1,10 @@
-import React from "react";
+import { forwardRef } from "react";
 import "./styles/desk.css";
 
-const Questiondesk = () => {
+const Questiondesk = forwardRef((props, ref) => {
   return (
     <>
-      <div className="question-2" id="contact-us-section">
+      <div className="question-2" id="contact-us-section" ref={ref}>
         <div className="frame-58">
           <p className="have-another-2">
             Have Another Question? <br />
@@ -19,7 +19,6 @@ const Questiondesk = () => {
                 </p>
                 <div className="frame-31">
                   <input className="input-style" placeholder="Joan Smith" />
-                  {/* <img className="line-11" alt="Line" src="/img/line-3-7.svg" /> */}
                 </div>
               </div>
               <div className="frame-61">
@@ -52,6 +51,6 @@ const Questiondesk = () => {
       </div>
     </>
   )
-}
+})
 
 export default Questiondesk

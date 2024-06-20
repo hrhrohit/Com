@@ -38,10 +38,10 @@ const FooterTab = () => {
                         <div className="line-5"></div>
                     </div>
                     <div className="frame-32">
-                        <a href="#" className="text-wrapper-40">Technical</a>
-                        <a href="#" className="text-wrapper-41">Managed Platforms</a>
-                        <a href="#" className="text-wrapper-41">Billing Support</a>
-                        <a href="#" className="text-wrapper-41">Other Services</a>
+                        <a onClick={() => navigate("/Com/services/technical-support")} className="text-wrapper-40">Technical</a>
+                        <a onClick={() => navigate("/Com/services/billing-support")} className="text-wrapper-41">Managed Platforms</a>
+                        <a onClick={() => navigate("/Com/services/managed-platform")} className="text-wrapper-41">Billing Support</a>
+                        <a onClick={() => navigate("/Com/services/other-services")} className="text-wrapper-41">Other Services</a>
                     </div>
                 </div>
                 <div className="frame-33">

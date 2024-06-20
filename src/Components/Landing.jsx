@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import { useWindowWidth } from "../breakpoints";
 import "./landing.css";
 import Navbar from "./Navbar/Navbar";
@@ -30,6 +30,36 @@ import ChooseMob from "./WhyChoose/ChooseMob";
 
 const Landing = () => {
   const screenWidth = useWindowWidth();
+  const questionDeskRef = useRef(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach(entry => {
+          console.log('Entry:', entry); // Debugging log
+          if (entry.isIntersecting) {
+            console.log('Questiondesk is in view'); // Debugging log
+            window.history.pushState(null, null, '/contact-us-section');
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+
+    if (questionDeskRef.current) {
+      observer.observe(questionDeskRef.current);
+      console.log('Observer attached'); // Debugging log
+    } else {
+      console.log('Ref not attached'); // Debugging log
+    }
+
+    return () => {
+      if (questionDeskRef.current) {
+        observer.unobserve(questionDeskRef.current);
+        console.log('Observer detached'); // Debugging log
+      }
+    };
+  }, []);
 
   return (
     <div
@@ -43,15 +73,11 @@ const Landing = () => {
               : undefined,
       }}
     >
-
-      {
-        screenWidth > 1024 &&
+      {screenWidth > 1024 && (
         <img
           className="pexels-apasaric"
           style={{
             height: screenWidth >= 1024 && screenWidth < 1440 ? "631px" : screenWidth >= 1440 ? "896px" : undefined,
-            // width:
-            //   screenWidth >= 1024 && screenWidth < 1440 ? "1023px" : screenWidth >= 1440 ? "1439px" : undefined,
           }}
           alt="Pexels apasaric"
           src={
@@ -62,20 +88,12 @@ const Landing = () => {
                 : undefined
           }
         />
-      }
-      {
-        
-      }
-
+      )}
+      {screenWidth >= 1440 && <FooterDesk />}
+      {screenWidth >= 1024 && screenWidth < 1440 && <FooterTab />}
       <div
         className="div"
         style={{
-          // backgroundColor:
-          //   (screenWidth >= 1024 && screenWidth < 1440) || screenWidth < 1024
-          //     ? "#ffffff"
-          //     : screenWidth >= 1440
-          //       ? "#f7f7f5"
-          //       : undefined,
           height:
             screenWidth < 1024
               ? "4104px"
@@ -95,9 +113,7 @@ const Landing = () => {
                   : undefined,
         }}
       >
-        {screenWidth < 1024 && (
-          <HeaderMob />
-        )}
+        {screenWidth < 1024 && <HeaderMob />}
 
         {((screenWidth >= 1024 && screenWidth < 1440) || screenWidth >= 1440) && (
           <div
@@ -107,8 +123,6 @@ const Landing = () => {
               width: screenWidth >= 1024 && screenWidth < 1440 ? "1023px" : screenWidth >= 1440 ? "1439px" : undefined,
             }}
           >
-
-            {/* <Navbar></Navbar> */}
             <Header />
             <TrustedBy />
           </div>
@@ -116,12 +130,8 @@ const Landing = () => {
 
         {screenWidth < 1024 && <TrustedByMob />}
 
-        {/* Goals Component Start different sizes */}
-
         {screenWidth >= 1440 && <GoalsDesk />}
-
         {screenWidth < 1024 && <GoalsMob />}
-
         {screenWidth >= 1024 && screenWidth < 1440 && (
           <>
             <GoalsMob />
@@ -129,17 +139,9 @@ const Landing = () => {
           </>
         )}
 
-        {/* Goals Component Ends different sizes */}
-
-        {/* Service Component starts different sizes */}
-
         {screenWidth >= 1440 && <ServicesDesk />}
         {screenWidth >= 1024 && screenWidth < 1440 && <ServiceTab />}
         {screenWidth < 1024 && <ServiceMob />}
-
-        {/* Service Component ends different sizes */}
-
-        {/* Tech support  Component starts different sizes */}
 
         {screenWidth >= 1440 && <TechSuppDesk />}
         {screenWidth >= 1024 && screenWidth < 1440 && <TechSuppTab />}
@@ -157,12 +159,12 @@ const Landing = () => {
         {screenWidth >= 1024 && screenWidth < 1440 && <QuestionTab />}
         {screenWidth < 1024 && <QuestionMob />}
 
+        {screenWidth < 1024 && <FooterMob />}
         {screenWidth >= 1440 && <FooterDesk />}
         {screenWidth >= 1024 && screenWidth < 1440 && <FooterTab />}
-        {screenWidth < 1024 && <FooterMob />}
       </div>
     </div>
   );
 };
 
-export default Landing
+export default Landing;

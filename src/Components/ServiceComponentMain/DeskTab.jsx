@@ -2,15 +2,25 @@ import React, { useState, useEffect } from "react";
 import { useWindowWidth } from "../../breakpoints";
 import { Link, Element, Events, animateScroll as scroll, scrollSpy } from 'react-scroll';
 import "./styles/desk.css";
-import { useLocation } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import contentConfig from './contentConfig';
 import vector from "../../../public/mainser/vector.svg"
 import vector_1 from "../../../public/mainser/vector-1.svg"
 import pexelDesk from "../../../public/mainser/pexels-pavel-danilyuk-7658430-1-1.png"
 import pexelTab from "../../../public/mainser/pexels-pavel-danilyuk-7658430-1.png"
+import pexelslina1 from "../../../public/mainser/pexels-lina-3394141-1.png"
+import pexelslina1_1 from "../../../public/mainser/pexels-lina-3394141-1-1.png"
+import pexelsfauxels1 from "../../../public/mainser/pexels-fauxels-3183165-1.png"
+import pexelsfauxels1_1 from "../../../public/mainser/pexels-fauxels-3183165-1-1.png"
+import vector190 from "../../../public/mainser/vector-190.svg"
+import vector190_1 from "../../../public/mainser/vector-190-1.svg"
+import line8 from "../../../public/mainser/line-8.svg"
+import line8_1 from "../../../public/mainser/line-8-1.svg"
+
 
 
 const ServicesDesktop = () => {
+    const navigate = useNavigate()
     const location = useLocation();
     const content = contentConfig[location.pathname];
     if (!content) {
@@ -108,13 +118,14 @@ const ServicesDesktop = () => {
                         }}
                     >
                         <img
-                            className="Aline-8 h-[130px]"
+                            className="Aline-8"
                             style={{
                                 left: screenWidth < 1440 ? "1px" : screenWidth >= 1440 ? "2px" : undefined,
                                 objectFit: screenWidth >= 1440 ? "cover" : undefined,
+                                height: screenWidth < 1440 ? "90px" : screenWidth >= 1440 ? "130px" : undefined,
                             }}
                             alt="Line"
-                            src={screenWidth < 1440 ? "mainser/line-8.svg" : screenWidth >= 1440 ? "mainser/line-8-1.svg" : undefined}
+                            src={screenWidth < 1440 ? line8 : screenWidth >= 1440 ? line8_1 : undefined}
                         />
                         <div
                             className="Arectangle"
@@ -199,27 +210,6 @@ const ServicesDesktop = () => {
                                 <div className="Atext-wrapper-20">Case Study</div>
                             </Link>
                         </div>
-                        {/* <div
-                        className="Atext-wrapper-20"
-                        style={{
-                            fontFamily:
-                                screenWidth < 1440
-                                    ? "'Urbanist', Helvetica"
-                                    : screenWidth >= 1440
-                                        ? "var(--h5-font-family)"
-                                        : undefined,
-                            fontSize: screenWidth < 1440 ? "17.1px" : screenWidth >= 1440 ? "var(--h5-font-size)" : undefined,
-                            fontStyle: screenWidth >= 1440 ? "var(--h5-font-style)" : undefined,
-                            fontWeight: screenWidth < 1440 ? "600" : screenWidth >= 1440 ? "var(--h5-font-weight)" : undefined,
-                            letterSpacing: screenWidth < 1440 ? "0" : screenWidth >= 1440 ? "var(--h5-letter-spacing)" : undefined,
-                            lineHeight: screenWidth < 1440 ? "normal" : screenWidth >= 1440 ? "var(--h5-line-height)" : undefined,
-                            whiteSpace: screenWidth < 1440 ? "nowrap" : undefined,
-                        }}
-                    >
-                        <Link to="next" spy={true} smooth={true} duration={50} onSetActive={handleSetActive}>
-                            <div className="Atext-wrapper-21">Next</div>
-                        </Link>
-                    </div> */}
                     </div>
                 </div>
                 <div
@@ -234,8 +224,7 @@ const ServicesDesktop = () => {
                         className="Aframe-4"
                         style={{
                             gap: screenWidth < 1440 ? "14.93px" : screenWidth >= 1440 ? "21px" : undefined,
-                            left: screenWidth < 1440 ? "23px" : screenWidth >= 1440 ? "33px" : undefined,
-                            // top: screenWidth < 1440 ? "22px" : screenWidth >= 1440 ? "31px" : undefined,
+                            left: screenWidth < 1440 ? "23px" : screenWidth >= 1440 ? "11px" : undefined,
                         }}
                     >
                         <div
@@ -256,7 +245,7 @@ const ServicesDesktop = () => {
                                 whiteSpace: screenWidth >= 1440 ? "nowrap" : undefined,
                             }}
                         >
-                            Technical Support
+                            {content.titleMain}
                         </div>
                         <img
                             className="Avector"
@@ -282,10 +271,9 @@ const ServicesDesktop = () => {
                                 letterSpacing: screenWidth < 1440 ? "0" : screenWidth >= 1440 ? "var(--h4-letter-spacing)" : undefined,
                                 lineHeight: screenWidth < 1440 ? "normal" : screenWidth >= 1440 ? "var(--h4-line-height)" : undefined,
                                 marginTop: screenWidth < 1440 ? "-0.71px" : screenWidth >= 1440 ? "-1.00px" : undefined,
-                                whiteSpace: screenWidth >= 1440 ? "nowrap" : undefined,
                             }}
                         >
-                            VoIP Lifecycle Management Services
+                            {content.title}
                         </div>
                     </div>
                     <Element
@@ -329,16 +317,6 @@ const ServicesDesktop = () => {
                                 >
                                     Overview
                                 </div>
-                                <img
-                                    className="Aline"
-                                    style={{
-                                        left: screenWidth < 1440 ? "2px" : screenWidth >= 1440 ? "3px" : undefined,
-                                        top: screenWidth < 1440 ? "34px" : screenWidth >= 1440 ? "48px" : undefined,
-                                        width: screenWidth < 1440 ? "128px" : screenWidth >= 1440 ? "180px" : undefined,
-                                    }}
-                                    alt="Line"
-                                    src={screenWidth < 1440 ? "mainser/line-7.svg" : screenWidth >= 1440 ? "mainser/line-7-4.svg" : undefined}
-                                />
                             </div>
                             <div
                                 className="Aframe-3"
@@ -363,7 +341,7 @@ const ServicesDesktop = () => {
                                         lineHeight:
                                             screenWidth < 1440 ? "20.5px" : screenWidth >= 1440 ? "var(--TS-l-line-height)" : undefined,
                                         marginTop: screenWidth < 1440 ? "-0.71px" : screenWidth >= 1440 ? "-1.00px" : undefined,
-                                        width: screenWidth < 1440 ? "445.87px" : screenWidth >= 1440 ? "627px" : undefined,
+                                        width: screenWidth < 1440 ? "682px" : screenWidth >= 1440 ? "961px" : undefined,
                                     }}
                                 >
                                     {content.overview.text1}<br /> <br />
@@ -389,9 +367,9 @@ const ServicesDesktop = () => {
                                     }}
                                 >
                                     {content.overview.text2} <br /> <br />
-                                    {content.overview.text2?content.overview.text2:null}
+                                    {content.overview.text2 ? content.overview.text2 : null}
                                 </p>
-                                <img
+                                {/* <img
                                     className="Apexels-pavel"
                                     style={{
                                         height: screenWidth < 1440 ? "339px" : screenWidth >= 1440 ? "476px" : undefined,
@@ -407,7 +385,7 @@ const ServicesDesktop = () => {
                                                 ? pexelDesk
                                                 : undefined
                                     }
-                                />
+                                /> */}
                             </div>
                         </div>
                     </Element>
@@ -447,16 +425,6 @@ const ServicesDesktop = () => {
                             >
                                 Benefits
                             </div>
-                            <img
-                                className="Aimg"
-                                style={{
-                                    left: screenWidth < 1440 ? "2px" : screenWidth >= 1440 ? "3px" : undefined,
-                                    top: screenWidth < 1440 ? "34px" : screenWidth >= 1440 ? "48px" : undefined,
-                                    width: screenWidth < 1440 ? "107px" : screenWidth >= 1440 ? "150px" : undefined,
-                                }}
-                                alt="Line"
-                                src={screenWidth < 1440 ? "mainser/line-7-1.svg" : screenWidth >= 1440 ? "mainser/line-7-5.svg" : undefined}
-                            />
                         </div>
                         <div
                             className="Aframe-7"
@@ -465,339 +433,88 @@ const ServicesDesktop = () => {
                                 width: screenWidth < 1440 ? "669.87px" : screenWidth >= 1440 ? "942px" : undefined,
                             }}
                         >
-                            <div
-                                className="Aframe-wrapper"
-                                style={{
-                                    height: screenWidth < 1440 ? "293.69px" : screenWidth >= 1440 ? "413px" : undefined,
-                                    width: screenWidth < 1440 ? "322.13px" : screenWidth >= 1440 ? "453px" : undefined,
-                                }}
-                            >
-                                <div
-                                    className="Aframe-8"
-                                    style={{
-                                        gap: screenWidth < 1440 ? "44.8px" : screenWidth >= 1440 ? "63px" : undefined,
-                                        left: screenWidth < 1440 ? "31px" : screenWidth >= 1440 ? "44px" : undefined,
-                                        top: screenWidth < 1440 ? "18px" : screenWidth >= 1440 ? "26px" : undefined,
-                                    }}
-                                >
-                                    <div
-                                        className="Aframe-9"
-                                        style={{
-                                            gap: screenWidth < 1440 ? "9.24px" : screenWidth >= 1440 ? "13px" : undefined,
-                                        }}
-                                    >
-                                        <img
-                                            className="Agroup"
-                                            style={{
-                                                height: screenWidth < 1440 ? "58.8px" : screenWidth >= 1440 ? "82.69px" : undefined,
-                                                width: screenWidth < 1440 ? "59.02px" : screenWidth >= 1440 ? "83px" : undefined,
-                                            }}
-                                            alt="Group"
-                                            src={screenWidth < 1440 ? content.imgSrc : screenWidth >= 1440 ? "mainser/group-2.png" : undefined}
-                                        />
-                                        <div
-                                            className="Atext-wrapper-5"
-                                            style={{
-                                                fontFamily:
-                                                    screenWidth < 1440
-                                                        ? "'Urbanist', Helvetica"
-                                                        : screenWidth >= 1440
-                                                            ? "var(--h5-font-family)"
-                                                            : undefined,
-                                                fontSize: screenWidth < 1440 ? "17.1px" : screenWidth >= 1440 ? "var(--h5-font-size)" : undefined,
-                                                fontStyle: screenWidth >= 1440 ? "var(--h5-font-style)" : undefined,
-                                                fontWeight:
-                                                    screenWidth < 1440 ? "600" : screenWidth >= 1440 ? "var(--h5-font-weight)" : undefined,
-                                                letterSpacing:
-                                                    screenWidth < 1440 ? "0" : screenWidth >= 1440 ? "var(--h5-letter-spacing)" : undefined,
-                                                lineHeight:
-                                                    screenWidth < 1440 ? "normal" : screenWidth >= 1440 ? "var(--h5-line-height)" : undefined,
-                                                width: screenWidth < 1440 ? "160.71px" : screenWidth >= 1440 ? "226px" : undefined,
-                                            }}
-                                        >
-                                            Seamless Integration
-                                        </div>
-                                    </div>
-                                    <p
-                                        className="Ap"
-                                        style={{
-                                            fontFamily:
-                                                screenWidth < 1440
-                                                    ? "'Urbanist', Helvetica"
-                                                    : screenWidth >= 1440
-                                                        ? "var(--TS-l-font-family)"
-                                                        : undefined,
-                                            fontSize: screenWidth < 1440 ? "17.1px" : screenWidth >= 1440 ? "var(--TS-l-font-size)" : undefined,
-                                            fontStyle: screenWidth >= 1440 ? "var(--TS-l-font-style)" : undefined,
-                                            fontWeight:
-                                                screenWidth < 1440 ? "500" : screenWidth >= 1440 ? "var(--TS-l-font-weight)" : undefined,
-                                            letterSpacing:
-                                                screenWidth < 1440 ? "0" : screenWidth >= 1440 ? "var(--TS-l-letter-spacing)" : undefined,
-                                            lineHeight:
-                                                screenWidth < 1440 ? "20.5px" : screenWidth >= 1440 ? "var(--TS-l-line-height)" : undefined,
-                                            width: screenWidth < 1440 ? "259.56px" : screenWidth >= 1440 ? "365px" : undefined,
-                                        }}
-                                    >
-                                        Our detailed provisioning processes ensure a smooth and precise setup, minimizing disruptions and
-                                        getting your VoIP system operational quickly.
-                                    </p>
-                                </div>
-                            </div>
-                            <div
-                                // className="Adiv-wrapper"
-                                className="Aframe-wrapper"
-                                style={{
-                                    height: screenWidth < 1440 ? "293.69px" : screenWidth >= 1440 ? "413px" : undefined,
-                                    width: screenWidth < 1440 ? "322.13px" : screenWidth >= 1440 ? "453px" : undefined,
-                                }}
-                            >
-                                <div
-                                    className="Aframe-10"
-                                    style={{
-                                        gap: screenWidth < 1440 ? "44.8px" : screenWidth >= 1440 ? "63px" : undefined,
-                                        left: screenWidth < 1440 ? "31px" : screenWidth >= 1440 ? "44px" : undefined,
-                                        top: screenWidth < 1440 ? "18px" : screenWidth >= 1440 ? "26px" : undefined,
-                                    }}
-                                >
-                                    <div
-                                        className="Aframe-11"
-                                        style={{
-                                            gap: screenWidth < 1440 ? "9.24px" : screenWidth >= 1440 ? "13px" : undefined,
-                                        }}
-                                    >
-                                        <img
-                                            className="Agroup-2"
-                                            style={{
-                                                height: screenWidth < 1440 ? "59.78px" : screenWidth >= 1440 ? "84.06px" : undefined,
-                                                width: screenWidth < 1440 ? "59.02px" : screenWidth >= 1440 ? "83px" : undefined,
-                                            }}
-                                            alt="Group"
-                                            src={screenWidth < 1440 ? "mainser/group-1.png" : screenWidth >= 1440 ? "mainser/group-3.png" : undefined}
-                                        />
-                                        <div
-                                            className="Atext-wrapper-6"
-                                            style={{
-                                                fontFamily:
-                                                    screenWidth < 1440
-                                                        ? "'Urbanist', Helvetica"
-                                                        : screenWidth >= 1440
-                                                            ? "var(--h5-font-family)"
-                                                            : undefined,
-                                                fontSize: screenWidth < 1440 ? "17.1px" : screenWidth >= 1440 ? "var(--h5-font-size)" : undefined,
-                                                fontStyle: screenWidth >= 1440 ? "var(--h5-font-style)" : undefined,
-                                                fontWeight:
-                                                    screenWidth < 1440 ? "600" : screenWidth >= 1440 ? "var(--h5-font-weight)" : undefined,
-                                                letterSpacing:
-                                                    screenWidth < 1440 ? "0" : screenWidth >= 1440 ? "var(--h5-letter-spacing)" : undefined,
-                                                lineHeight:
-                                                    screenWidth < 1440 ? "normal" : screenWidth >= 1440 ? "var(--h5-line-height)" : undefined,
-                                                width: screenWidth < 1440 ? "184.18px" : screenWidth >= 1440 ? "259px" : undefined,
-                                            }}
-                                        >
-                                            Optimized Performance
-                                        </div>
-                                    </div>
-                                    <p
-                                        className="Atext-wrapper-7"
-                                        style={{
-                                            fontFamily:
-                                                screenWidth < 1440
-                                                    ? "'Urbanist', Helvetica"
-                                                    : screenWidth >= 1440
-                                                        ? "var(--TS-l-font-family)"
-                                                        : undefined,
-                                            fontSize: screenWidth < 1440 ? "17.1px" : screenWidth >= 1440 ? "var(--TS-l-font-size)" : undefined,
-                                            fontStyle: screenWidth >= 1440 ? "var(--TS-l-font-style)" : undefined,
-                                            fontWeight:
-                                                screenWidth < 1440 ? "500" : screenWidth >= 1440 ? "var(--TS-l-font-weight)" : undefined,
-                                            letterSpacing:
-                                                screenWidth < 1440 ? "0" : screenWidth >= 1440 ? "var(--TS-l-letter-spacing)" : undefined,
-                                            lineHeight:
-                                                screenWidth < 1440 ? "20.5px" : screenWidth >= 1440 ? "var(--TS-l-line-height)" : undefined,
-                                            width: screenWidth < 1440 ? "259.56px" : screenWidth >= 1440 ? "365px" : undefined,
-                                        }}
-                                    >
-                                        Regular system monitoring and maintenance keep your VoIP infrastructure running at peak performance,
-                                        reducing downtime and enhancing reliability.
-                                    </p>
-                                </div>
-                            </div>
-                            <div
-                                // className="Aframe-12"
-                                className="Aframe-wrapper"
 
-                                style={{
-                                    height: screenWidth < 1440 ? "293.69px" : screenWidth >= 1440 ? "413px" : undefined,
-                                    width: screenWidth < 1440 ? "322.13px" : screenWidth >= 1440 ? "453px" : undefined,
-                                }}
-                            >
+                            {content.benefits.items.map((item) => (
                                 <div
-                                    className="Aframe-13"
+                                    className="Aframe-wrapper"
                                     style={{
-                                        gap: screenWidth < 1440 ? "44.8px" : screenWidth >= 1440 ? "63px" : undefined,
-                                        left: screenWidth < 1440 ? "31px" : screenWidth >= 1440 ? "44px" : undefined,
-                                        top: screenWidth < 1440 ? "18px" : screenWidth >= 1440 ? "26px" : undefined,
+                                        height: screenWidth < 1440 ? "293.69px" : screenWidth >= 1440 ? "413px" : undefined,
+                                        width: screenWidth < 1440 ? "322.13px" : screenWidth >= 1440 ? "453px" : undefined,
                                     }}
                                 >
                                     <div
-                                        className="Aframe-14"
+                                        className="Aframe-8"
                                         style={{
-                                            gap: screenWidth < 1440 ? "30.58px" : screenWidth >= 1440 ? "43px" : undefined,
+                                            gap: screenWidth < 1440 ? "44.8px" : screenWidth >= 1440 ? "63px" : undefined,
+                                            left: screenWidth < 1440 ? "31px" : screenWidth >= 1440 ? "44px" : undefined,
+                                            top: screenWidth < 1440 ? "18px" : screenWidth >= 1440 ? "26px" : undefined,
                                         }}
                                     >
                                         <div
-                                            className="Agroup-3"
+                                            className="Aframe-9"
                                             style={{
-                                                height: screenWidth < 1440 ? "37.33px" : screenWidth >= 1440 ? "52.5px" : undefined,
-                                                width: screenWidth < 1440 ? "55.47px" : screenWidth >= 1440 ? "78px" : undefined,
+                                                gap: screenWidth < 1440 ? "9.24px" : screenWidth >= 1440 ? "13px" : undefined,
                                             }}
                                         >
-                                            <svg width="87" height="53" viewBox="0 0 87 53" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M44.5 11H82.5" stroke="black" stroke-width="8" stroke-linecap="round" />
-                                                <path d="M4.5 41H42.5" stroke="black" stroke-width="8" stroke-linecap="round" />
-                                                <path d="M6.5 11H9.5" stroke="black" stroke-width="8" stroke-linecap="round" />
-                                                <path d="M77.5 41H80.5" stroke="black" stroke-width="8" stroke-linecap="round" />
-                                                <circle cx="60.5" cy="41.5" r="7.5" stroke="#FF4E4E" stroke-width="7" />
-                                                <circle cx="26.5" cy="11" r="7.5" stroke="#FF4E4E" stroke-width="7" />
-                                            </svg>
-
+                                            <img
+                                                className="Agroup"
+                                                style={{
+                                                    height: screenWidth < 1440 ? "58.8px" : screenWidth >= 1440 ? "82.69px" : undefined,
+                                                    width: screenWidth < 1440 ? "59.02px" : screenWidth >= 1440 ? "83px" : undefined,
+                                                }}
+                                                alt="Group"
+                                                src={screenWidth < 1440 ? item.imgSrc : screenWidth >= 1440 ? item.imgSrc : undefined}
+                                            />
+                                            <div
+                                                className="Atext-wrapper-5"
+                                                style={{
+                                                    fontFamily:
+                                                        screenWidth < 1440
+                                                            ? "'Urbanist', Helvetica"
+                                                            : screenWidth >= 1440
+                                                                ? "var(--h5-font-family)"
+                                                                : undefined,
+                                                    fontSize: screenWidth < 1440 ? "17.1px" : screenWidth >= 1440 ? "var(--h5-font-size)" : undefined,
+                                                    fontStyle: screenWidth >= 1440 ? "var(--h5-font-style)" : undefined,
+                                                    fontWeight:
+                                                        screenWidth < 1440 ? "600" : screenWidth >= 1440 ? "var(--h5-font-weight)" : undefined,
+                                                    letterSpacing:
+                                                        screenWidth < 1440 ? "0" : screenWidth >= 1440 ? "var(--h5-letter-spacing)" : undefined,
+                                                    lineHeight:
+                                                        screenWidth < 1440 ? "normal" : screenWidth >= 1440 ? "var(--h5-line-height)" : undefined,
+                                                    width: screenWidth < 1440 ? "100%" : screenWidth >= 1440 ? "100%" : undefined,
+                                                }}
+                                            >
+                                                {item.title}
+                                            </div>
                                         </div>
-                                        <div
-                                            className="Atext-wrapper-8"
+                                        <p
+                                            className="Ap"
                                             style={{
                                                 fontFamily:
                                                     screenWidth < 1440
                                                         ? "'Urbanist', Helvetica"
                                                         : screenWidth >= 1440
-                                                            ? "var(--h5-font-family)"
+                                                            ? "var(--TS-l-font-family)"
                                                             : undefined,
-                                                fontSize: screenWidth < 1440 ? "17.1px" : screenWidth >= 1440 ? "var(--h5-font-size)" : undefined,
-                                                fontStyle: screenWidth >= 1440 ? "var(--h5-font-style)" : undefined,
+                                                fontSize: screenWidth < 1440 ? "17.1px" : screenWidth >= 1440 ? "var(--TS-l-font-size)" : undefined,
+                                                fontStyle: screenWidth >= 1440 ? "var(--TS-l-font-style)" : undefined,
                                                 fontWeight:
-                                                    screenWidth < 1440 ? "600" : screenWidth >= 1440 ? "var(--h5-font-weight)" : undefined,
+                                                    screenWidth < 1440 ? "500" : screenWidth >= 1440 ? "var(--TS-l-font-weight)" : undefined,
                                                 letterSpacing:
-                                                    screenWidth < 1440 ? "0" : screenWidth >= 1440 ? "var(--h5-letter-spacing)" : undefined,
+                                                    screenWidth < 1440 ? "0" : screenWidth >= 1440 ? "var(--TS-l-letter-spacing)" : undefined,
                                                 lineHeight:
-                                                    screenWidth < 1440 ? "normal" : screenWidth >= 1440 ? "var(--h5-line-height)" : undefined,
-                                                width: screenWidth < 1440 ? "175.64px" : screenWidth >= 1440 ? "247px" : undefined,
+                                                    screenWidth < 1440 ? "20.5px" : screenWidth >= 1440 ? "var(--TS-l-line-height)" : undefined,
+                                                width: screenWidth < 1440 ? "259.56px" : screenWidth >= 1440 ? "365px" : undefined,
                                             }}
                                         >
-                                            Customized Solutions
-                                        </div>
+                                            {item.description}
+                                        </p>
                                     </div>
-                                    <p
-                                        className="Atext-wrapper-9"
-                                        style={{
-                                            fontFamily:
-                                                screenWidth < 1440
-                                                    ? "'Urbanist', Helvetica"
-                                                    : screenWidth >= 1440
-                                                        ? "var(--TS-l-font-family)"
-                                                        : undefined,
-                                            fontSize: screenWidth < 1440 ? "17.1px" : screenWidth >= 1440 ? "var(--TS-l-font-size)" : undefined,
-                                            fontStyle: screenWidth >= 1440 ? "var(--TS-l-font-style)" : undefined,
-                                            fontWeight:
-                                                screenWidth < 1440 ? "500" : screenWidth >= 1440 ? "var(--TS-l-font-weight)" : undefined,
-                                            letterSpacing:
-                                                screenWidth < 1440 ? "0" : screenWidth >= 1440 ? "var(--TS-l-letter-spacing)" : undefined,
-                                            lineHeight:
-                                                screenWidth < 1440 ? "20.5px" : screenWidth >= 1440 ? "var(--TS-l-line-height)" : undefined,
-                                            width: screenWidth < 1440 ? "259.56px" : screenWidth >= 1440 ? "365px" : undefined,
-                                        }}
-                                    >
-                                        Custom dial plans and translation rules designed to meet your specific business needs, improving
-                                        efficiency and functionality in your communication system.
-                                    </p>
                                 </div>
-                            </div>
-                            <div
-                                // className="Aframe-15"
-                                className="Aframe-wrapper"
-                                style={{
-                                    height: screenWidth < 1440 ? "293.69px" : screenWidth >= 1440 ? "413px" : undefined,
-                                    width: screenWidth < 1440 ? "322.13px" : screenWidth >= 1440 ? "453px" : undefined,
-                                }}
-                            >
-                                <div
-                                    className="Aframe-16"
-                                    style={{
-                                        gap: screenWidth < 1440 ? "44.8px" : screenWidth >= 1440 ? "63px" : undefined,
-                                        left: screenWidth < 1440 ? "31px" : screenWidth >= 1440 ? "44px" : undefined,
-                                        top: screenWidth < 1440 ? "18px" : screenWidth >= 1440 ? "26px" : undefined,
-                                    }}
-                                >
-                                    <div
-                                        className="Aframe-17"
-                                        style={{
-                                            gap: screenWidth < 1440 ? "9.24px" : screenWidth >= 1440 ? "13px" : undefined,
-                                        }}
-                                    >
-                                        <img
-                                            className="Amask-group"
-                                            style={{
-                                                height: screenWidth < 1440 ? "52.46px" : screenWidth >= 1440 ? "73.78px" : undefined,
-                                                width: screenWidth < 1440 ? "59.02px" : screenWidth >= 1440 ? "83px" : undefined,
-                                            }}
-                                            alt="Mask group"
-                                            src={
-                                                screenWidth < 1440
-                                                    ? "mainser/mask-group.png"
-                                                    : screenWidth >= 1440
-                                                        ? "mainser/mask-group-1.png"
-                                                        : undefined
-                                            }
-                                        />
-                                        <div
-                                            className="Atext-wrapper-10"
-                                            style={{
-                                                fontFamily:
-                                                    screenWidth < 1440
-                                                        ? "'Urbanist', Helvetica"
-                                                        : screenWidth >= 1440
-                                                            ? "var(--h5-font-family)"
-                                                            : undefined,
-                                                fontSize: screenWidth < 1440 ? "17.1px" : screenWidth >= 1440 ? "var(--h5-font-size)" : undefined,
-                                                fontStyle: screenWidth >= 1440 ? "var(--h5-font-style)" : undefined,
-                                                fontWeight:
-                                                    screenWidth < 1440 ? "600" : screenWidth >= 1440 ? "var(--h5-font-weight)" : undefined,
-                                                letterSpacing:
-                                                    screenWidth < 1440 ? "0" : screenWidth >= 1440 ? "var(--h5-letter-spacing)" : undefined,
-                                                lineHeight:
-                                                    screenWidth < 1440 ? "normal" : screenWidth >= 1440 ? "var(--h5-line-height)" : undefined,
-                                                width: screenWidth < 1440 ? "194.13px" : screenWidth >= 1440 ? "273px" : undefined,
-                                            }}
-                                        >
-                                            Comprehensive Support
-                                        </div>
-                                    </div>
-                                    <p
-                                        className="Atext-wrapper-11"
-                                        style={{
-                                            fontFamily:
-                                                screenWidth < 1440
-                                                    ? "'Urbanist', Helvetica"
-                                                    : screenWidth >= 1440
-                                                        ? "var(--TS-l-font-family)"
-                                                        : undefined,
-                                            fontSize: screenWidth < 1440 ? "17.1px" : screenWidth >= 1440 ? "var(--TS-l-font-size)" : undefined,
-                                            fontStyle: screenWidth >= 1440 ? "var(--TS-l-font-style)" : undefined,
-                                            fontWeight:
-                                                screenWidth < 1440 ? "500" : screenWidth >= 1440 ? "var(--TS-l-font-weight)" : undefined,
-                                            letterSpacing:
-                                                screenWidth < 1440 ? "0" : screenWidth >= 1440 ? "var(--TS-l-letter-spacing)" : undefined,
-                                            lineHeight:
-                                                screenWidth < 1440 ? "20.5px" : screenWidth >= 1440 ? "var(--TS-l-line-height)" : undefined,
-                                            width: screenWidth < 1440 ? "259.56px" : screenWidth >= 1440 ? "365px" : undefined,
-                                        }}
-                                    >
-                                        Regular system monitoring and maintenance keep your VoIP infrastructure running at peak performance,
-                                        reducing downtime and enhancing reliability.
-                                    </p>
-                                </div>
-                            </div>
+                            ))}
                         </div>
                     </Element>
-
                     <Element
                         name="caseStudy"
                         className="Aframe-21"
@@ -833,16 +550,6 @@ const ServicesDesktop = () => {
                             >
                                 Case Study
                             </div>
-                            <img
-                                className="Aline-7"
-                                style={{
-                                    left: screenWidth < 1440 ? "2px" : screenWidth >= 1440 ? "3px" : undefined,
-                                    top: screenWidth < 1440 ? "34px" : screenWidth >= 1440 ? "48px" : undefined,
-                                    width: screenWidth < 1440 ? "135px" : screenWidth >= 1440 ? "190px" : undefined,
-                                }}
-                                alt="Line"
-                                src={screenWidth < 1440 ? "mainser/line-7-3.svg" : screenWidth >= 1440 ? "mainser/line-7-7.svg" : undefined}
-                            />
                         </div>
                         <div
                             className="Aframe-23"
@@ -855,9 +562,9 @@ const ServicesDesktop = () => {
                                 style={{
                                     backgroundImage:
                                         screenWidth < 1440
-                                            ? "url(mainser/pexels-fauxels-3183165-1.png)"
+                                            ? `url(${pexelsfauxels1})`
                                             : screenWidth >= 1440
-                                                ? "url(mainser/pexels-fauxels-3183165-1-1.png)"
+                                                ? `url(${pexelsfauxels1_1})`
                                                 : undefined,
                                     height: screenWidth < 1440 ? "369.78px" : screenWidth >= 1440 ? "520px" : undefined,
                                     overflow: screenWidth < 1440 ? "hidden" : undefined,
@@ -909,14 +616,15 @@ const ServicesDesktop = () => {
                                     </div>
                                 </div>
                             </div>
+
                             <div
                                 className="Aoverlap-wrapper"
                                 style={{
                                     backgroundImage:
                                         screenWidth < 1440
-                                            ? "url(mainser/pexels-lina-3394141-1.png)"
+                                            ? `url(${pexelslina1})`
                                             : screenWidth >= 1440
-                                                ? "url(mainser/pexels-lina-3394141-1-1.png)"
+                                                ? `url(${pexelslina1_1})`
                                                 : undefined,
                                     height: screenWidth < 1440 ? "369.78px" : screenWidth >= 1440 ? "520px" : undefined,
                                     overflow: screenWidth < 1440 ? "hidden" : undefined,
@@ -970,129 +678,7 @@ const ServicesDesktop = () => {
                             </div>
                         </div>
                     </Element>
-                    <Element
-                        name="next"
-                        className="Anext"
-                        id="next"
-                        style={{
-                            gap: screenWidth < 1440 ? "39.82px" : screenWidth >= 1440 ? "56px" : undefined,
-                            left: screenWidth < 1440 ? "33px" : screenWidth >= 1440 ? "46px" : undefined,
-                            // top: screenWidth < 1440 ? "1985px" : screenWidth >= 1440 ? "2791px" : undefined,
-                        }}
-                    >
-                        <div
-                            className="Aframe-18"
-                            style={{
-                                gap: screenWidth < 1440 ? "32.71px" : screenWidth >= 1440 ? "46px" : undefined,
-                            }}
-                        >
-                            <div
-                                className="Aframe-19"
-                                style={{
-                                    gap: screenWidth < 1440 ? "7.11px" : screenWidth >= 1440 ? "10px" : undefined,
-                                }}
-                            >
-                                <div
-                                    className="Atext-wrapper-12"
-                                    style={{
-                                        fontFamily:
-                                            screenWidth < 1440
-                                                ? "'Urbanist', Helvetica"
-                                                : screenWidth >= 1440
-                                                    ? "var(--h3-font-family)"
-                                                    : undefined,
-                                        fontSize: screenWidth < 1440 ? "30.6px" : screenWidth >= 1440 ? "var(--h3-font-size)" : undefined,
-                                        fontStyle: screenWidth >= 1440 ? "var(--h3-font-style)" : undefined,
-                                        fontWeight: screenWidth < 1440 ? "600" : screenWidth >= 1440 ? "var(--h3-font-weight)" : undefined,
-                                        letterSpacing:
-                                            screenWidth < 1440 ? "0" : screenWidth >= 1440 ? "var(--h3-letter-spacing)" : undefined,
-                                        lineHeight: screenWidth < 1440 ? "normal" : screenWidth >= 1440 ? "var(--h3-line-height)" : undefined,
-                                        marginTop: screenWidth < 1440 ? "-0.71px" : screenWidth >= 1440 ? "-1.00px" : undefined,
-                                    }}
-                                >
-                                    Next Step
-                                </div>
-                                <img
-                                    className="Aline-6"
-                                    style={{
-                                        left: screenWidth < 1440 ? "2px" : screenWidth >= 1440 ? "3px" : undefined,
-                                        top: screenWidth < 1440 ? "34px" : screenWidth >= 1440 ? "48px" : undefined,
-                                        width: screenWidth < 1440 ? "135px" : screenWidth >= 1440 ? "190px" : undefined,
-                                    }}
-                                    alt="Line"
-                                    src={screenWidth < 1440 ? "mainser/line-7-2.svg" : screenWidth >= 1440 ? "mainser/line-7-7.svg" : undefined}
-                                />
-                            </div>
-                            <p
-                                className="Atext-wrapper-13"
-                                style={{
-                                    fontFamily:
-                                        screenWidth < 1440
-                                            ? "'Urbanist', Helvetica"
-                                            : screenWidth >= 1440
-                                                ? "var(--h5-font-family)"
-                                                : undefined,
-                                    fontSize: screenWidth < 1440 ? "17.1px" : screenWidth >= 1440 ? "var(--h5-font-size)" : undefined,
-                                    fontStyle: screenWidth >= 1440 ? "var(--h5-font-style)" : undefined,
-                                    fontWeight: screenWidth < 1440 ? "600" : screenWidth >= 1440 ? "var(--h5-font-weight)" : undefined,
-                                    letterSpacing: screenWidth < 1440 ? "0" : screenWidth >= 1440 ? "var(--h5-letter-spacing)" : undefined,
-                                    lineHeight: screenWidth < 1440 ? "normal" : screenWidth >= 1440 ? "var(--h5-line-height)" : undefined,
-                                    width: screenWidth < 1440 ? "628.62px" : screenWidth >= 1440 ? "884px" : undefined,
-                                }}
-                            >
-                                Take the next step with us. Enhance your business communication with our expert support and comprehensive
-                                services.
-                            </p>
-                        </div>
-                        <div
-                            className="Aframe-20"
-                            style={{
-                                borderRadius: screenWidth < 1440 ? "10.67px" : screenWidth >= 1440 ? "15px" : undefined,
-                                gap: screenWidth < 1440 ? "12.8px" : screenWidth >= 1440 ? "18px" : undefined,
-                                padding:
-                                    screenWidth < 1440
-                                        ? "5.69px 16.36px 5.69px 12.8px"
-                                        : screenWidth >= 1440
-                                            ? "8px 23px 8px 18px"
-                                            : undefined,
-                                width: screenWidth < 1440 ? "161.42px" : screenWidth >= 1440 ? "227px" : undefined,
-                            }}
-                        >
-                            <div
-                                className="Atext-wrapper-14"
-                                style={{
-                                    fontFamily:
-                                        screenWidth < 1440
-                                            ? "'Urbanist', Helvetica"
-                                            : screenWidth >= 1440
-                                                ? "var(--h5-font-family)"
-                                                : undefined,
-                                    fontSize: screenWidth < 1440 ? "17.1px" : screenWidth >= 1440 ? "var(--h5-font-size)" : undefined,
-                                    fontStyle: screenWidth >= 1440 ? "var(--h5-font-style)" : undefined,
-                                    fontWeight: screenWidth < 1440 ? "600" : screenWidth >= 1440 ? "var(--h5-font-weight)" : undefined,
-                                    letterSpacing: screenWidth < 1440 ? "0" : screenWidth >= 1440 ? "var(--h5-letter-spacing)" : undefined,
-                                    lineHeight: screenWidth < 1440 ? "normal" : screenWidth >= 1440 ? "var(--h5-line-height)" : undefined,
-                                    marginTop: screenWidth < 1440 ? "-0.71px" : screenWidth >= 1440 ? "-1.00px" : undefined,
-                                    whiteSpace: screenWidth < 1440 ? "nowrap" : undefined,
-                                }}
-                            >
-                                Book a meeting
-                            </div>
-                            <img
-                                className="Avector-2"
-                                style={{
-                                    height: screenWidth < 1440 ? "8px" : screenWidth >= 1440 ? "11px" : undefined,
-                                    left: screenWidth < 1440 ? "140px" : screenWidth >= 1440 ? "197px" : undefined,
-                                    top: screenWidth < 1440 ? "12px" : screenWidth >= 1440 ? "17px" : undefined,
-                                    width: screenWidth < 1440 ? "12px" : screenWidth >= 1440 ? "17px" : undefined,
-                                }}
-                                alt="Vector"
-                                src={
-                                    screenWidth < 1440 ? "mainser/vector-190.svg" : screenWidth >= 1440 ? "mainser/vector-190-1.svg" : undefined
-                                }
-                            />
-                        </div>
-                    </Element>
+z */}
                 </div>
 
 

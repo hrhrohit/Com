@@ -18,7 +18,8 @@ function App() {
                 {screenWidth >= 1024 ? <Navbar /> : <NavbarMob />}
                 <Routes>
                     <Route path="/Com" element={<Landing />} />
-                    {screenWidth >= 1024 ? <Route path="/Com/services" element={<Tablet />} /> : null}
+                    {screenWidth >= 1024 ?  <Route path="/Com/services" element={<Tablet />} /> : null}
+                    {screenWidth >= 1024 ?  <Route path="/Com/services/:serviceName" element={<Tablet />} /> : null}
                     {screenWidth >= 1024 ? <Route path="/Com/service-details/*" element={<ServicesDesktop />} /> : null}
                     {screenWidth <= 1024 ? <Route path="/Com/service-details/*" element={<ServiceMobContent />} /> : null}  
                 </Routes>

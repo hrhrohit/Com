@@ -2,13 +2,14 @@
   align-items: flex-start;
   background-color: #282828;
   display: flex;
+  justify-content: center;
   gap: 265px;
   height: 242px;
   left: 0;
   padding: 21px 10px;
   position: absolute;
   top: 3118px;
-  width: 1024px;
+  width: 100%;
 }
 
 .footer .frame-27 {
